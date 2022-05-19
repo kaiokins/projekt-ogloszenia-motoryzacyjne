@@ -37,6 +37,18 @@ class Car(models.Model):
         ('5', '5'),
     )
 
+    transmissionChoise = (
+        ('Manualna', 'Manualna'),
+        ('Automatyczna', 'Automatyczna'),
+        ('Półautomatyczna', 'Półautomatyczna'),
+    )
+
+    conditionChoise = (
+        ('Nowe', 'Nowe'),
+        ('Używane', 'Używane'),
+        ('Uszkodzone', 'Uszkodzone'),
+    )
+
     featureChoise = (
         ('Interfejs Bluetooth', 'Interfejs Bluetooth'),
         ('Radio', 'Radio'),
@@ -74,6 +86,7 @@ class Car(models.Model):
         ('Mini ciężarówka', 'Mini ciężarówka'),
         ('Hatchback', 'Hatchback'),
         ('Sedan', 'Sedan'),
+        ('Kombi', 'Kombi'),
         ('Van', 'Van'),
         ('Minivan', 'Minivan'),
         ('Roadster', 'Roadster'),
@@ -93,12 +106,13 @@ class Car(models.Model):
     )
 
     title = models.CharField(max_length=200)
+    brand = models.CharField(max_length=100, default="")
     model = models.CharField(max_length=100)
     year = models.IntegerField(choices=yearChoise, default=datetime.now().year)
     engine = models.CharField(max_length=100)
     fuel = models.CharField(choices=fuelChoise, max_length=100)
-    transmission = models.CharField(max_length=100)
-    condition = models.CharField(max_length=100)
+    transmission = models.CharField(choices=transmissionChoise, max_length=15)
+    condition = models.CharField(choices=conditionChoise, max_length=15)
     description = RichTextField()
     price = models.IntegerField()
     photo1 = models.ImageField(upload_to='photos/%Y%m/%d/')
@@ -107,7 +121,7 @@ class Car(models.Model):
     photo4 = models.ImageField(upload_to='photos/%Y%m/%d/', blank=True)
     photo5 = models.ImageField(upload_to='photos/%Y%m/%d/', blank=True)
     color = models.CharField(max_length=100)
-    features = MultiSelectField(choices=featureChoise, max_length=100)
+    features = MultiSelectField(choices=featureChoise, max_length=800)
     body = models.CharField(choices=bodyChoise, max_length=100)
     doors = models.CharField(choices=doorChoise, max_length=100)
     kilometeres = models.IntegerField()
@@ -117,3 +131,6 @@ class Car(models.Model):
     province = models.CharField(choices=provinceName, max_length=100)
     city = models.CharField(max_length=100)
     added = models.DateTimeField(default=datetime.now, blank=True)
+
+    def __str__(self):
+        return self.title
