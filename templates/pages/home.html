@@ -19,52 +19,48 @@
         </div>
         <!-- Search box 3 start -->
         <div class="search-box-4 sb-8">
-            <form action="#" method="">
+            <form action="{% url 'search' %}" method="">
                 <div class="form-group">
-                    <input type="text" name="keyword" placeholder="Search by name" class="form-control">
+                    <input type="text" name="keyword" placeholder="Wyszukaj" class="form-control">
                 </div>
                 <div class="form-group">
-                    <select class="form-control search-fields" name="select-brand">
+                    <select class="form-control search-fields" name="brand">
                         <option selected="true" disabled="disabled">Marka</option>
-                        <option>Audi</option>
-                        <option>BMW</option>
-                        <option>Honda</option>
-                        <option>Nissan</option>
+                        {% for brand in brand %}
+                        <option value="{{brand.brand}}">{{brand.brand}}</option>
+                        {% endfor %}
                     </select>
                 </div>
                 <div class="form-group">
-                    <select class="form-control search-fields" name="select-make">
+                    <select class="form-control search-fields" name="model">
                         <option selected="true" disabled="disabled">Model</option>
-                        <option>BMW</option>
-                        <option>Honda</option>
-                        <option>Lamborghini Huracán</option>
-                        <option>Sports Car</option>
+                        {% for model in model %}
+                        <option value="{{model.model}}">{{model.model}}</option>
+                        {% endfor %}
                     </select>
                 </div>
                 <div class="form-group">
-                    <select class="form-control search-fields" name="select-location">
+                    <select class="form-control search-fields" name="city">
                         <option selected="true" disabled="disabled">Lokalizacja</option>
-                        <option>Kraków</option>
-                        <option>Warszawa</option>
+                        {% for city in city %}
+                        <option value="{{city.city}}">{{city.city}}</option>
+                        {% endfor %}
                     </select>
                 </div>
                 <div class="form-group">
-                    <select class="form-control search-fields" name="select-year">
+                    <select class="form-control search-fields" name="year">
                         <option selected="true" disabled="disabled">Rok</option>
-                        <option>2016</option>
-                        <option>2017</option>
-                        <option>2018</option>
-                        <option>2019</option>
+                        {% for year in year %}
+                        <option value="{{year.year}}">{{year.year}}</option>
+                        {% endfor %}
                     </select>
                 </div>
                 <div class="form-group">
-                    <select class="form-control search-fields" name="select-type">
+                    <select class="form-control search-fields" name="body">
                         <option selected="true" disabled="disabled">Typ samochodu</option>
-                        <option>Sedan</option>
-                        <option>Sportowy</option>
-                        <option>Hatchback</option>
-                        <option>Pickup</option>
-                        <option>SUV</option>
+                        {% for body in body %}
+                        <option value="{{body.body}}">{{body.body}}</option>
+                        {% endfor %}
                     </select>
                 </div>
                 <div class="range-slider clearfix">
