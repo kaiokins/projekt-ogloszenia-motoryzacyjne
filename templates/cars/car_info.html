@@ -207,10 +207,14 @@
                                   <label for="name" class="col-form-label">Nazywam się</label>
                                   <div class="row">
                                     <div class="col">
-                                      <input type="text" name="firstName" class="form-control" placeholder="Imię" required>
+                                      <input type="text" name="firstName" class="form-control" placeholder="Imię"
+                                      {% if user.is_authenticated %} value="{{user.first_name}}" {% endif %}
+                                      required>
                                     </div>
                                     <div class="col">
-                                      <input type="text" name="lastName" class="form-control" placeholder="Nazwisko" required>
+                                      <input type="text" name="lastName" class="form-control" placeholder="Nazwisko"
+                                      {% if user.is_authenticated %} value="{{user.last_name}}" {% endif %}
+                                      required>
                                     </div>
                                   </div>
                                 </div>
@@ -242,7 +246,9 @@
                                   <div class="row">
                                     <div class="col">
                                         <label for="name" class="col-form-label">Chcę otrzymać wiadomość pod</label>
-                                      <input type="email" name="email" class="form-control" placeholder="Email" required>
+                                      <input type="email" name="email" class="form-control" placeholder="Email"
+                                      {% if user.is_authenticated %} value="{{user.email}}" {% endif %}
+                                      required>
                                     </div>
                                     <div class="col">
                                         <label for="phone" class="col-form-label">lub telefonicznie</label>

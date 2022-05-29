@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect
 from .models import Contact
 from django.contrib import messages
+from django.core.mail import send_mail
+from django.contrib.auth.models import User
 
 # Create your views here.
 def question(request):
@@ -17,7 +19,25 @@ def question(request):
         phoneNumber = request.POST['phoneNumber']
         message = request.POST['message']
 
+        if request.user.is_authenticated:
+            userId = request.user.id
+            sended = Contact.objects.all().filter(carId=carId, userId=userId)
+            if sended:
+                messages.error(request, 'Wysłałeś zapytanie do tej oferty')
+                return redirect('/cars'+carId)
+
         question = Contact(carId=carId, carTitle=carTitle, userId=userId, firstName=firstName, lastName=lastName, question=question, city=city, province=province, email=email, phoneNumber=phoneNumber, message=message)
+
+        info = User.objects.get(is_superuser=True)
+        emailInfo = info.email
+        send_mail(
+            'Zapytanie związane z samochodem',
+            'Masz nowe zapytanie do ofert: ' + carTitle,
+            'otoautocomp@gmail.com',
+            [emailInfo],
+            fail_silently=False,
+        )
+
         question.save()
         messages.success(request, "Wkrótce otrzymasz odpowiedź na Twoją wiadomość")
 
