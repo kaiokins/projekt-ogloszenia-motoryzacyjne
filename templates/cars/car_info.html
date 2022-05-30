@@ -2,13 +2,12 @@
 {% load humanize %}
 
 {% block contect %}
-
 <div class="sub-banner overview-bgi">
     <div class="container breadcrumb-area">
         <div class="breadcrumb-areas">
             <h1>{{ car.title }}</h1>
             <ul class="breadcrumbs">
-                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="{% url 'home' %}">Strona główna</a></li>
                 <li class="active">{{ car.title }}</li>
             </ul>
         </div>
@@ -20,7 +19,6 @@
         <div class="row">
             <div class="col-lg-8 col-md-12 col-xs-12">
                 <div class="car-details-section">
-                    <!-- Heading start -->
                     <div class="heading-car clearfix">
                     {% include 'includes/messages.html' %}
                         <div class="pull-left">
@@ -34,7 +32,6 @@
                         </div>
                     </div>
                     <div id="carDetailsSlider" class="carousel car-details-sliders slide mb-40">
-                        <!-- main slider carousel items -->
                         <div class="carousel-inner">
                             <div class="active item carousel-item" data-slide-number="0">
                                 <img src="{{ car.photo1.url }}" class="img-fluid" alt="slider-car">
@@ -52,7 +49,6 @@
                                 <img src="{{ car.photo5.url }}" class="img-fluid" alt="slider-car">
                             </div>
                         </div>
-                        <!-- main slider carousel nav controls -->
                         <div class="carousel-indicators-section clearfix">
                             <ul class="carousel-indicators car-properties list-inline nav nav-justified">
                                 <li class="list-inline-item active">
@@ -83,7 +79,6 @@
                             </ul>
                         </div>
                     </div>
-
 
                     <div class="tabbing tabbing-box mb-40">
                         <ul class="nav nav-tabs" id="carTab" role="tablist">
@@ -119,20 +114,14 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-
-
                 </div>
             </div>
             <div class="col-lg-4 col-md-12">
                 <div class="sidebar-right">
-                    <!-- Advanced search start -->
                     <div class="widget advanced-search d-none-992">
                         <button class="btn btn-outline-danger bomd btn-block btn-lg" data-toggle="modal" data-target="#inquiryModal">Wyślij wiadomość</button>
-
-
                         <br>
                         <h3 class="sidebar-title">Opis</h3>
                         <ul>
@@ -183,7 +172,6 @@
                         </ul>
                     </div>
 
-                    <!-- Inquiry Modal -->
                     <div class="modal fade" id="inquiryModal" role="dialog">
                       <div class="modal-dialog">
                         <div class="modal-content">
@@ -196,7 +184,6 @@
                           <div class="modal-body">
                             <form action="{% url 'question' %}" method="POST">
                             {% csrf_token %}
-
                             {% if user.is_authenticated %}
                                <input type="hidden" name="userId" value="{{user.id}}">
                             {% else %}
@@ -273,5 +260,4 @@
         </div>
     </div>
 </div>
-
 {% endblock %}

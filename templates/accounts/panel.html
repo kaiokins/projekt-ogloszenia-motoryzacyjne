@@ -2,7 +2,6 @@
 {% load static %}
 
 {% block contect %}
-
 <div class="sub-banner overview-bgi">
     <div class="container breadcrumb-area">
         <div class="breadcrumb-areas">
@@ -35,8 +34,8 @@
               <tbody>
               {% for question in userQuestion %}
                 <tr>
-                  <th scope="row">{{question.carId}}</th>
-                  <td>{{question.carTitle}}</td>
+                  <th scope="row">{{ question.carId }}</th>
+                  <td>{{ question.carTitle }}</td>
 <!--                   <td>{{question.city}}</td> -->
 <!--                   <td>{{car.price}}</td> -->
                   <td><a href="{% url 'car_info' question.carId %}" class="btn btn-outline-dark">Wyświetl</a></td>
@@ -48,5 +47,4 @@
             <h3>Nie masz wysłanych wiadomości</h3>
         {% endif %}
 </div>
-
 {% endblock %}

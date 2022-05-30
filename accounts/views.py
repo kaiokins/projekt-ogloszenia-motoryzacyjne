@@ -5,7 +5,6 @@ from contacts.models import Contact
 from cars.models import Car
 from django.contrib.auth.decorators import login_required
 
-# Create your views here.
 def login(request):
     if request.method == 'POST':
         username = request.POST['username']

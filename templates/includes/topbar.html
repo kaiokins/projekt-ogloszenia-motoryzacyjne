@@ -1,4 +1,3 @@
-<!-- Top header start -->
 <header class="top-header th-2 top-header-bg">
     <div class="container">
         <div class="row">
@@ -8,14 +7,13 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-5">
                 <ul class="top-social-media pull-right">
-
                 {% if user.is_authenticated %}
                     <li>
                         <a href="{% url 'panel' %}" class="sign-in"><i class="fa fa-tachometer"></i> Panel użytkownika</a>
                     </li>
 
                     <li>
-                        <a href="javascript:{document.getElementById('logout').submit()}" class="sign-out"><i class="fa fa-sign-out"></i> Wyloguj się</a>
+                        <a href="javascript:{document.getElementById('logout').submit()}" class="sign-in"><i class="fa fa-sign-out"></i> Wyloguj się</a>
                         <form action="{% url 'logout' %}" id="logout" method="POST">
                          {% csrf_token %}
                          <input type="hidden">
@@ -34,4 +32,3 @@
         </div>
     </div>
 </header>
-<!-- Top header end -->

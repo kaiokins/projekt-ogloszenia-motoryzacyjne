@@ -1,22 +1,20 @@
 {% extends 'base.html' %}
 {% load humanize %}
 {% load static %}
+
 {% block contect %}
-<!-- Banner start -->
 <div class="sub-banner overview-bgi">
     <div class="container breadcrumb-area">
         <div class="breadcrumb-areas">
-            <h1>Search Results</h1>
+            <h1>Rezultaty wyszukiwania</h1>
             <ul class="breadcrumbs">
-                <li><a href="index.html">Home</a></li>
-                <li class="active">Search</li>
+                <li><a href="{% url 'home' %}">Strona główna</a></li>
+                <li class="active">Wyszukaj</li>
             </ul>
         </div>
     </div>
 </div>
-<!-- Banner end -->
 
-<!-- Search box 3 start -->
 <div class="search-box-3 sb-7 bg-active">
     <div class="container">
         <div class="search-area-inner">
@@ -28,7 +26,7 @@
                                 <select class="selectpicker search-fields" name="brand">
                                     <option selected="true" disabled="disabled">Marka</option>
                                     {% for brand in searchBrand %}
-                                    <option value="{{brand.brand}}">{{brand.brand}}</option>
+                                        <option value="{{brand.brand}}">{{ brand.brand }}</option>
                                     {% endfor %}
                                 </select>
                             </div>
@@ -38,7 +36,7 @@
                                 <select class="selectpicker search-fields" name="model">
                                     <option selected="true" disabled="disabled">Model</option>
                                     {% for model in searchModel %}
-                                    <option value="{{model.model}}">{{model.model}}</option>
+                                        <option value="{{model.model}}">{{ model.model }}</option>
                                     {% endfor %}
                                 </select>
                             </div>
@@ -48,7 +46,7 @@
                                 <select class="selectpicker search-fields" name="city">
                                     <option selected="true" disabled="disabled">Lokalizacja</option>
                                     {% for city in searchCity %}
-                                    <option value="{{city.city}}">{{city.city}}</option>
+                                        <option value="{{city.city}}">{{ city.city }}</option>
                                     {% endfor %}
                                 </select>
                             </div>
@@ -58,7 +56,7 @@
                                 <select class="selectpicker search-fields" name="year">
                                     <option selected="true" disabled="disabled">Rok</option>
                                     {% for year in searchYear %}
-                                    <option value="{{year.year}}">{{year.year}}</option>
+                                        <option value="{{year.year}}">{{ year.year }}</option>
                                     {% endfor %}
                                 </select>
                             </div>
@@ -70,7 +68,7 @@
                                 <select class="selectpicker search-fields" name="body">
                                     <option selected="true" disabled="disabled">Typ samochodu</option>
                                     {% for body in searchBody %}
-                                    <option value="{{body.body}}">{{body.body}}</option>
+                                        <option value="{{body.body}}">{{ body.body }}</option>
                                     {% endfor %}
                                 </select>
                             </div>
@@ -96,16 +94,9 @@
         </div>
     </div>
 </div>
-<!-- Search box 3 end -->
 
-<!-- Featured car start -->
 <div class="featured-car content-area">
     <div class="container">
-        <!-- Main title -->
-        <div class="main-title">
-            <h1>Here's your <span>Cars</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
         <div class="row">
         {% for car in cars %}
             <div class="col-lg-4 col-md-6">
@@ -176,5 +167,4 @@
            {% endfor %}
     </div>
 </div>
-<!-- Featured car end -->
 {% endblock %}

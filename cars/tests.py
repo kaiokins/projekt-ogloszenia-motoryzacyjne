@@ -3,9 +3,7 @@ from django.urls import reverse, resolve
 from .views import cars, car_info
 from .models import Car
 
-# Create your tests here.
 class carTests(TestCase):
-
     # urls test
     def test_urlCars(self):
         url = reverse('cars')

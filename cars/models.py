@@ -3,9 +3,7 @@ from datetime import datetime
 from ckeditor.fields import RichTextField
 from multiselectfield import MultiSelectField
 
-# Create your models here.
 class Car(models.Model):
-
     yearChoise = []
     for r in range(1980, (datetime.now().year + 1)):
         yearChoise.append((r, r))

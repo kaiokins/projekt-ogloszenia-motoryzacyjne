@@ -5,7 +5,6 @@ from django.contrib.auth.models import User
 from django.core.mail import send_mail
 from django.contrib import messages
 
-# Create your views here.
 def home(request):
     teams = Team.objects.all()
     fCars = Car.objects.order_by('-added').filter(isFeatured=True)

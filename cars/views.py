@@ -3,7 +3,6 @@ from django.shortcuts import get_object_or_404
 from .models import Car
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 
-# Create your views here.
 def cars(request):
     cars = Car.objects.order_by('-added')
     pagination = Paginator(cars, 6)
@@ -42,10 +41,10 @@ def search(request):
         if keyword:
             cars = cars.filter(title__icontains=keyword)
 
-    # if 'brand' in request.GET:
-    #     brand = request.GET['brand']
-    #     if brand:
-    #         cars = cars.filter(brand__iexact=brand)
+    if 'brand' in request.GET:
+        brand = request.GET['brand']
+        if brand:
+            cars = cars.filter(brand__iexact=brand)
 
     if 'model' in request.GET:
         model = request.GET['model']

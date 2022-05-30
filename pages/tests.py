@@ -3,9 +3,7 @@ from django.urls import reverse, resolve
 from .views import contact, about, services, home
 from .models import Team
 
-# Create your tests here.
 class otoautoTests(TestCase):
-
     # urls test
     def test_urlContact(self):
         url = reverse('contact')
