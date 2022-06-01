@@ -4,6 +4,10 @@ from .views import login, logout, register, panel
 from django.contrib.auth.models import User
 
 class accountTest(TestCase):
+    def setUp(self):
+        self.client = Client()
+        self.user = User.objects.create_user(username='test', email='abc@gmail.com', first_name='t', last_name='u', password="password")
+
     # urls test
     def test_urlLogin(self):
         url = reverse('login')
@@ -23,22 +27,19 @@ class accountTest(TestCase):
 
     # views test
     def test_viewLogin(self):
-        client = Client()
-        response = client.get(reverse('login'))
+        response = self.client.get(reverse('login'))
         self.assertEquals(response.status_code, 200)
 
-    # def test_viewLogout(self):
-    #     client = Client()
-    #     response = client.get(reverse('logout'))
-    #     self.assertEquals(response.status_code, 302)
+    def test_viewLogout(self):
+        self.client.login(username='test', password='password')
+        response = self.client.get(reverse('home'))
+        self.assertEqual(response.status_code, 200)
 
     def test_viewRegister(self):
-        client = Client()
-        response = client.get(reverse('register'))
+        response = self.client.get(reverse('register'))
         self.assertEquals(response.status_code, 200)
 
-    # def test_viewPanel(self):
-    #     object1 = User.objects.create(username='test', email='abc@gmail.com', first_name='t', last_name='u', password="password")
-    #     client = Client()
-    #     response = client.get(reverse('panel'))
-    #     self.assertEqual(response.status_code, 200)
+    def test_viewPanel(self):
+        self.client.login(username='test', password='password')
+        response = self.client.get(reverse('panel'))
+        self.assertEqual(response.status_code, 200)

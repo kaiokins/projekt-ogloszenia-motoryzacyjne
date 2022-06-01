@@ -4,6 +4,9 @@ from .views import cars, car_info, search
 from .models import Car
 
 class carTests(TestCase):
+    def setUp(self):
+        self.client = Client()
+
     # urls test
     def test_urlCars(self):
         url = reverse('cars')
@@ -19,18 +22,15 @@ class carTests(TestCase):
 
     # views test
     def test_viewCars(self):
-        client = Client()
-        response = client.get(reverse('cars'))
+        response = self.client.get(reverse('cars'))
         self.assertEquals(response.status_code, 200)
 
     # def test_viewCarInfo(self):
-    #     client = Client()
-    #     response = client.get(reverse('cars', kwargs={'id': 3}))
+    #     response = self.client.get(reverse('cars', kwargs={'id': 1}))
     #     self.assertEquals(response.status_code, 200)
 
     def test_viewSearch(self):
-        client = Client()
-        response = client.get(reverse('search'))
+        response = self.client.get(reverse('search'))
         self.assertEquals(response.status_code, 200)
 
     # models test
