@@ -1,7 +1,8 @@
-from django.test import TestCase, Client
+from django.test import TestCase, Client, RequestFactory
 from django.urls import reverse, resolve
 from .views import login, logout, register, panel
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, AnonymousUser
+from django.http import HttpRequest
 
 class accountTest(TestCase):
     def setUp(self):
@@ -29,17 +30,30 @@ class accountTest(TestCase):
     def test_viewLogin(self):
         response = self.client.get(reverse('login'))
         self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, 'accounts/login.html')
 
     def test_viewLogout(self):
         self.client.login(username='test', password='password')
         response = self.client.get(reverse('home'))
         self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'pages/home.html')
 
     def test_viewRegister(self):
         response = self.client.get(reverse('register'))
         self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, 'accounts/register.html')
 
     def test_viewPanel(self):
         self.client.login(username='test', password='password')
         response = self.client.get(reverse('panel'))
         self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'accounts/panel.html')
+
+    # csrf test
+    def test_csrfLogin(self):
+        response = self.client.get(reverse('login'))
+        self.assertContains(response, 'csrfmiddlewaretoken')
+
+    def test_csrfRegister(self):
+        response = self.client.get(reverse('register'))
+        self.assertContains(response, 'csrfmiddlewaretoken')

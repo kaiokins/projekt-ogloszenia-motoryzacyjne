@@ -4,6 +4,8 @@ from .views import contact, about, services, home
 from .models import Team
 from django.core.mail import send_mail
 from django.contrib.auth.models import User
+from django.http import HttpResponse
+from django.core import mail
 
 class otoautoTests(TestCase):
     def setUp(self):
@@ -31,18 +33,22 @@ class otoautoTests(TestCase):
     def test_viewHome(self):
         response = self.client.get(reverse('home'))
         self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, 'pages/home.html')
 
     def test_viewAbout(self):
         response = self.client.get(reverse('about'))
         self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, 'pages/about.html')
 
     def test_viewServices(self):
         response = self.client.get(reverse('services'))
         self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, 'pages/services.html')
 
     def test_viewContact(self):
         response = self.client.get(reverse('contact'))
         self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, 'pages/contact.html')
 
     # models test
     def test_teamText(self):
@@ -50,12 +56,19 @@ class otoautoTests(TestCase):
         self.assertEquals(str(member), "Jakub Godfryd | Właściciel")
 
     # email send test
-    def test_send_email(self):
-        messageMail = 'Imię: ' + 'Adrian' + '\nEmail: ' + 'Nowak' + '\nTelefon: ' + '123456789' + '\nWiadomość: ' + 'Test wiadomości'
-        send_mail(
-            '[OtoAuto] Masz nową wiadomość, temat: ' + 'Temat',
-            messageMail,
-            'otoautocomp@gmail.com',
-            [self.user.email],
-            fail_silently=False,
-        )
+    # def test_sendEmail(self):
+    #     messageMail = 'Imię: ' + 'Adrian' + '\nEmail: ' + 'Nowak' + '\nTelefon: ' + '123456789' + '\nWiadomość: ' + 'Test wiadomości'
+    #     mail.send_mail(
+    #         '[OtoAuto] Masz nową wiadomość, temat: ' + 'Temat',
+    #         messageMail,
+    #         'otoautocomp@gmail.com',
+    #         [self.user.email],
+    #         fail_silently=False,
+    #     )
+    #     self.assertEquals(mail.body, '[OtoAuto] Masz nową wiadomość, temat: ' + 'Temat')
+
+
+    # csrf test
+    def test_csrfContact(self):
+        response = self.client.get(reverse('contact'))
+        self.assertContains(response, 'csrfmiddlewaretoken')

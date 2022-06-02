@@ -24,6 +24,7 @@ class carTests(TestCase):
     def test_viewCars(self):
         response = self.client.get(reverse('cars'))
         self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, 'cars/cars.html')
 
     # def test_viewCarInfo(self):
     #     response = self.client.get(reverse('cars', kwargs={'id': 1}))
@@ -32,6 +33,7 @@ class carTests(TestCase):
     def test_viewSearch(self):
         response = self.client.get(reverse('search'))
         self.assertEquals(response.status_code, 200)
+        self.assertTemplateUsed(response, 'cars/search.html')
 
     # models test
     def test_carsText(self):
