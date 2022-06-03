@@ -3,21 +3,19 @@
 {% load humanize %}
 
 {% block contect %}
-
-<!-- Banner start -->
 <div class="banner" id="banner">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner banner-slider-inner text-center">
             <div class="carousel-item banner-max-height active item-bg">
-                <img class="d-block w-100 h-100" src="{% static 'img/car-1.jpg' %}" alt="banner">
+                <img class="d-block w-100 h-100" src="{% static 'img/car-1.jpg' %}" alt="banner" style="object-fit: cover;">
                 <div class="carousel-content container banner-info-2 bi-2 text-left">
                     <h3>OtoAuto</h3>
-                    <h5>Znajdź swój wymarzony samochód z gwarancją zadowolenia.</h5>
+                    <h5>Znajdź swój wymarzony samochód z gwarancją zadowolenia</h5>
                     <a href="{% url 'services' %}" class="btn btn-lg btn-theme">Więcej</a>
                 </div>
             </div>
         </div>
-        <!-- Search box 3 start -->
+
         <div class="search-box-4 sb-8">
             <form action="{% url 'search' %}" method="">
                 <div class="form-group">
@@ -27,7 +25,7 @@
                     <select class="form-control search-fields" name="brand">
                         <option selected="true" disabled="disabled">Marka</option>
                         {% for brand in brand %}
-                        <option value="{{brand.brand}}">{{brand.brand}}</option>
+                        <option value="{{ brand.brand }}">{{ brand.brand }}</option>
                         {% endfor %}
                     </select>
                 </div>
@@ -35,7 +33,7 @@
                     <select class="form-control search-fields" name="model">
                         <option selected="true" disabled="disabled">Model</option>
                         {% for model in model %}
-                        <option value="{{model.model}}">{{model.model}}</option>
+                        <option value="{{ model.model }}">{{ model.model }}</option>
                         {% endfor %}
                     </select>
                 </div>
@@ -43,7 +41,7 @@
                     <select class="form-control search-fields" name="city">
                         <option selected="true" disabled="disabled">Lokalizacja</option>
                         {% for city in city %}
-                        <option value="{{city.city}}">{{city.city}}</option>
+                        <option value="{{ city.city }}">{{ city.city }}</option>
                         {% endfor %}
                     </select>
                 </div>
@@ -51,7 +49,7 @@
                     <select class="form-control search-fields" name="year">
                         <option selected="true" disabled="disabled">Rok</option>
                         {% for year in year %}
-                        <option value="{{year.year}}">{{year.year}}</option>
+                        <option value="{{ year.year }}">{{ year.year }}</option>
                         {% endfor %}
                     </select>
                 </div>
@@ -59,13 +57,13 @@
                     <select class="form-control search-fields" name="body">
                         <option selected="true" disabled="disabled">Typ samochodu</option>
                         {% for body in body %}
-                        <option value="{{body.body}}">{{body.body}}</option>
+                        <option value="{{ body.body }}">{{ body.body }}</option>
                         {% endfor %}
                     </select>
                 </div>
                 <div class="range-slider clearfix">
                                 <label>Cena</label>
-                                <div data-min="0" data-max="150000"  data-min-name="min_price" data-max-name="max_price" data-unit="PLN" class="range-slider-ui ui-slider" aria-disabled="false"></div>
+                                <div data-min="0" data-max="1500000"  data-min-name="min_price" data-max-name="max_price" data-unit="PLN" class="range-slider-ui ui-slider" aria-disabled="false"></div>
                                 <div class="clearfix"></div>
                             </div>
                 <div class="form-group">
@@ -75,22 +73,16 @@
                 </div>
             </form>
         </div>
-        <!-- Search box 3 end -->
     </div>
 </div>
-<!-- Banner end -->
 
-<!-- Search box 2 end -->
 
-<!-- Featured car start -->
 <div class="featured-car content-area-5">
     <div class="container">
-        <!-- Main title -->
         <div class="main-title">
             <h1>Polecane samochody</h1>
             <p>Najlepszy stosunek jakości do ceny</p>
         </div>
-        <!-- Slick slider area start -->
         <div class="slick-slider-area clearfix">
             <div class="row slick-carousel" data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
                 {% for car in fCars %}
@@ -162,12 +154,10 @@
         </div>
     </div>
 </div>
-<!-- Featured car end -->
 
-<!-- Rent car start -->
+
 <div class="featured-car content-area">
     <div class="container">
-        <!-- Main title -->
         <div class="main-title">
             <h1>Najnowsze samochody</h1>
             <p>Niedawno dodane ogłoszenia</p>
@@ -243,18 +233,13 @@
         </div>
     </div>
 </div>
-<!-- Rent car end -->
 
 
-<!-- Our team start -->
 <div class="our-team content-area bg-grea-3">
     <div class="container">
-        <!-- Main title -->
         <div class="main-title">
             <h1>Nasza drużyna</h1>
-            <p>Bacon ipsum dolor amet tenderloin ham hock ham corned beef pastrami filet</p>
         </div>
-        <!-- Slick slider area start -->
         <div class="slick-slider-area clearfix">
             <div class="row slick-carousel" data-slick='{"slidesToShow": 4, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
             {% for team in teams %}
@@ -281,80 +266,77 @@
         </div>
     </div>
 </div>
-<!-- Our team end -->
 
-<!-- Car Overview Modal -->
-<div class="car-model-2">
-    <div class="modal fade" id="carOverviewModal" tabindex="-1" role="dialog" aria-labelledby="carOverviewModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="modal-title" id="carOverviewModalLabel">
-                        <h4>Znajdź coś dla siebie</h4>
-                        <h5><i class="flaticon-pin"></i> ul. Centralna 250, 31-586 Kraków </h5>
-                    </div>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row modal-raw">
-                        <div class="col-lg-6 modal-left">
-                            <div class="item active">
-                                <img src="img/car-13.jpg" alt="best-car" class="img-fluid modalLabel-1">
-                                <img src="img/car-14.jpg" alt="best-car" class="img-fluid modalLabel-2">
-                                <div class="sobuz">
-                                    <div class="price-box" style="padding-bottom: 5px;">
-                                        <span class="del-2">150 000</span>
-                                    </div>
-                                    <div class="">
-                                        <a href="car-details.html" class="btn btn-md btn-round btn-theme">Zamienny</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 modal-right">
-                            <div class="modal-right-content">
-                                <section>
-                                    <h3>Wyposażenie</h3>
-                                    <div class="features">
-                                        <ul class="bullets">
-                                            <li>Klimatyzacja dwustrefowa</li>
-                                            <li>8x Airbags</li>
-                                            <li>Komputer pokładowy/li>
-                                            <li>Alarm</li>
-                                            <li>Nagłośnienie bose</li>
-                                            <li>Apple car</li>
-                                            <li>Podgrzewane siedzenia</li>
-                                            <li>Czujniki parkowania</li>
-                                        </ul>
-                                    </div>
-                                </section>
-                                <section>
-                                    <h3>Overview</h3>
-                                    <ul class="bullets">
-                                        <li>Model</li>
-                                        <li>Rok</li>
-                                        <li>Stan</li>
-                                        <li>Cena</li>
-                                        <li>Audi</li>
-                                        <li>2020</li>
-                                        <li>Nowy</li>
-                                        <li>150 000</li>
-                                    </ul>
-                                </section>
-                                <div class="description">
-                                    <h3>Opis</h3>
-                                    <p>Bacon ipsum dolor amet buffalo biltong prosciutto, ham short ribs chuck landjaeger leberkas jerky beef beef ribs chicken</p>
-                                    <a href="car-details.html" class="btn btn-md btn-round btn-theme">Szczegóły</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
+<!-- <div class="car-model-2"> -->
+<!--     <div class="modal fade" id="carOverviewModal" tabindex="-1" role="dialog" aria-labelledby="carOverviewModalLabel" aria-hidden="true"> -->
+<!--         <div class="modal-dialog modal-lg" role="document"> -->
+<!--             <div class="modal-content"> -->
+<!--                 <div class="modal-header"> -->
+<!--                     <div class="modal-title" id="carOverviewModalLabel"> -->
+<!--                         <h4>Znajdź coś dla siebie</h4> -->
+<!--                         <h5><i class="flaticon-pin"></i> ul. Centralna 250, 31-586 Kraków </h5> -->
+<!--                     </div> -->
+<!--                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
+<!--                         <span aria-hidden="true">&times;</span> -->
+<!--                     </button> -->
+<!--                 </div> -->
+<!--                 <div class="modal-body"> -->
+<!--                     <div class="row modal-raw"> -->
+<!--                         <div class="col-lg-6 modal-left"> -->
+<!--                             <div class="item active"> -->
+<!--                                 <img src="img/car-13.jpg" alt="best-car" class="img-fluid modalLabel-1"> -->
+<!--                                 <img src="img/car-14.jpg" alt="best-car" class="img-fluid modalLabel-2"> -->
+<!--                                 <div class="sobuz"> -->
+<!--                                     <div class="price-box" style="padding-bottom: 5px;"> -->
+<!--                                         <span class="del-2">150 000</span> -->
+<!--                                     </div> -->
+<!--                                     <div class=""> -->
+<!--                                         <a href="car-details.html" class="btn btn-md btn-round btn-theme">Zamienny</a> -->
+<!--                                     </div> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                         </div> -->
+<!--                         <div class="col-lg-6 modal-right"> -->
+<!--                             <div class="modal-right-content"> -->
+<!--                                 <section> -->
+<!--                                     <h3>Wyposażenie</h3> -->
+<!--                                     <div class="features"> -->
+<!--                                         <ul class="bullets"> -->
+<!--                                             <li>Klimatyzacja dwustrefowa</li> -->
+<!--                                             <li>8x Airbags</li> -->
+<!--                                             <li>Komputer pokładowy/li> -->
+<!--                                             <li>Alarm</li> -->
+<!--                                             <li>Nagłośnienie bose</li> -->
+<!--                                             <li>Apple car</li> -->
+<!--                                             <li>Podgrzewane siedzenia</li> -->
+<!--                                             <li>Czujniki parkowania</li> -->
+<!--                                         </ul> -->
+<!--                                     </div> -->
+<!--                                 </section> -->
+<!--                                 <section> -->
+<!--                                     <h3>Overview</h3> -->
+<!--                                     <ul class="bullets"> -->
+<!--                                         <li>Model</li> -->
+<!--                                         <li>Rok</li> -->
+<!--                                         <li>Stan</li> -->
+<!--                                         <li>Cena</li> -->
+<!--                                         <li>Audi</li> -->
+<!--                                         <li>2020</li> -->
+<!--                                         <li>Nowy</li> -->
+<!--                                         <li>150 000</li> -->
+<!--                                     </ul> -->
+<!--                                 </section> -->
+<!--                                 <div class="description"> -->
+<!--                                     <h3>Opis</h3> -->
+<!--                                     <a href="car-details.html" class="btn btn-md btn-round btn-theme">Szczegóły</a> -->
+<!--                                 </div> -->
+<!--                             </div> -->
+<!--                         </div> -->
+<!--                     </div> -->
+<!--                 </div> -->
+<!--             </div> -->
+<!--         </div> -->
+<!--     </div> -->
+<!-- </div> -->
 {% endblock %}

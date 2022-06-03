@@ -26,8 +26,7 @@
                 <tr>
                   <th scope="col">ID</th>
                   <th scope="col">Nazwa samochodu</th>
-<!--                   <th scope="col">Lokalizacja</th> -->
-<!--                   <th scope="col">Cena</th> -->
+                  <th scope="col">Wiadomość</th>
                   <th scope="col">Szczegóły</th>
                 </tr>
               </thead>
@@ -36,11 +35,10 @@
                 <tr>
                   <th scope="row">{{ question.carId }}</th>
                   <td>{{ question.carTitle }}</td>
-<!--                   <td>{{question.city}}</td> -->
-<!--                   <td>{{car.price}}</td> -->
+                  <td>{{ question.message }}</td>
                   <td><a href="{% url 'car_info' question.carId %}" class="btn btn-outline-dark">Wyświetl</a></td>
                 </tr>
-                {% endfor %}
+              {% endfor %}
               </tbody>
             </table>
         {% else %}

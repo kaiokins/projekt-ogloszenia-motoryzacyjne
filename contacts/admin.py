@@ -2,7 +2,6 @@ from django.contrib import admin
 from .models import Contact
 
 class ContactAdmin(admin.ModelAdmin):
-
     list_filter = ('email', 'city')
     search_fields = ('id', 'firstName', 'lastName', 'email', 'carTitle', 'city', 'added')
     list_display = ('id', 'firstName', 'lastName', 'email', 'carTitle', 'city', 'added')

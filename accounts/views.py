@@ -55,7 +55,7 @@ def register(request):
 def panel(request):
     car = Car.objects.order_by('-added')
     userQuestion = Contact.objects.order_by('-added').filter(userId=request.user.id)
-    data = {'userQuestion' : userQuestion, 'car': car}
+    data = {'userQuestion': userQuestion}
     return render(request, 'accounts/panel.html', data)
 
 def logout(request):

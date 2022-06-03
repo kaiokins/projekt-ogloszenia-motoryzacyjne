@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 
 {% block contect %}
-<!-- Sub banner start -->
 <div class="sub-banner overview-bgi">
     <div class="container breadcrumb-area">
         <div class="breadcrumb-areas">
@@ -13,13 +12,11 @@
         </div>
     </div>
 </div>
-<!-- Sub Banner end -->
-<!-- Contact 2 start -->
+
 <div class="contact-2 content-area-5">
     <div class="container">
-        <!-- Main title -->
         <div class="main-title text-center">
-            <h1>Skontaktuj się z nami - zawsze pomożemy</h1>
+            <h1>Chcesz dodać ogłoszenie? Skontaktuj się z nami</h1>
         </div>
         <form action="{% url 'contact' %}" method="POST" enctype="multipart/form-data">
         {% csrf_token %}
@@ -94,7 +91,7 @@
                             </div>
                             <div class="detail">
                                 <h5>Fax:</h5>
-                                <p><a href="#">123 456 789</a></p>
+                                <p><a href="#">123 456 777</a></p>
                             </div>
                         </div>
                     </div>
@@ -103,5 +100,4 @@
         </form>
     </div>
 </div>
-<!-- Contact 2 end -->
 {% endblock %}
