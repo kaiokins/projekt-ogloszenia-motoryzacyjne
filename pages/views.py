@@ -57,7 +57,7 @@ def contact(request):
             [emailInfo],
             fail_silently=False,
         )
-        messages.success(request, 'Dziękujemy za kontakt. Wkrótce odpowiemy odpowiemy Ci na wiadomość.')
+        messages.success(request, 'Dziękujemy za kontakt. Wkrótce odpowiemy Ci na wiadomość.')
         return redirect('contact')
 
     return render(request, 'pages/contact.html')

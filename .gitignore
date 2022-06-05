@@ -29,6 +29,7 @@ build/
 develop-eggs/
 dist/
 downloads/
+otoauto/static/img/
 eggs/
 .eggs/
 lib/

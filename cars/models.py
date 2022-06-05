@@ -9,22 +9,22 @@ class Car(models.Model):
         yearChoise.append((r, r))
 
     provinceName = (
-        ('DS', 'Dolnośląskie'),
-        ('KP', 'Kujawsko-Pomorskie'),
-        ('LU', 'Lubelskie'),
-        ('LB', 'Lubuskie'),
-        ('LD', 'Łódzkie'),
-        ('MA', 'Małopolskie'),
-        ('MZ', 'Mazowieckie'),
-        ('OP', 'Opolskie'),
-        ('PK', 'Podkarpackie'),
-        ('PD', 'Podlaskie'),
-        ('PM', 'Pomorskie'),
-        ('SL', 'Śląskie'),
-        ('SK', 'Świętokrzyskie'),
-        ('WN', 'Warmińsko-mazurskie'),
-        ('WP', 'Wielkopolskie'),
-        ('ZP', 'Zachodniopomorskie'),
+        ('Dolnośląskie', 'Dolnośląskie'),
+        ('Kujawsko-Pomorskie', 'Kujawsko-Pomorskie'),
+        ('Lubelskie', 'Lubelskie'),
+        ('Lubuskie', 'Lubuskie'),
+        ('Łódzkie', 'Łódzkie'),
+        ('Małopolskie', 'Małopolskie'),
+        ('Mazowieckie', 'Mazowieckie'),
+        ('Opolskie', 'Opolskie'),
+        ('Podkarpackie', 'Podkarpackie'),
+        ('Podlaskie', 'Podlaskie'),
+        ('Pomorskie', 'Pomorskie'),
+        ('Śląskie', 'Śląskie'),
+        ('Świętokrzyskie', 'Świętokrzyskie'),
+        ('Warmińsko-mazurskie', 'Warmińsko-mazurskie'),
+        ('Wielkopolskie', 'Wielkopolskie'),
+        ('Zachodniopomorskie', 'Zachodniopomorskie'),
     )
 
     doorChoise = (
@@ -108,16 +108,17 @@ class Car(models.Model):
     model = models.CharField(max_length=100)
     year = models.IntegerField(choices=yearChoise, default=datetime.now().year)
     engine = models.CharField(max_length=100)
+    power = models.SmallIntegerField(default=0)
     fuel = models.CharField(choices=fuelChoise, max_length=100)
     transmission = models.CharField(choices=transmissionChoise, max_length=15)
     condition = models.CharField(choices=conditionChoise, max_length=15)
     description = RichTextField()
     price = models.IntegerField()
-    photo1 = models.ImageField(upload_to='photos/%Y%m/%d/')
-    photo2 = models.ImageField(upload_to='photos/%Y%m/%d/', blank=True)
-    photo3 = models.ImageField(upload_to='photos/%Y%m/%d/', blank=True)
-    photo4 = models.ImageField(upload_to='photos/%Y%m/%d/', blank=True)
-    photo5 = models.ImageField(upload_to='photos/%Y%m/%d/', blank=True)
+    photo1 = models.ImageField(upload_to='photos/%Y/%m/%d/')
+    photo2 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
+    photo3 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
+    photo4 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
+    photo5 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
     color = models.CharField(max_length=100)
     features = MultiSelectField(choices=featureChoise, max_length=800)
     body = models.CharField(choices=bodyChoise, max_length=100)
