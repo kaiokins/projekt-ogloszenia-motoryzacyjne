@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-x4&cj*4eyh@t)sn!jjqxrme2&%8)fgjnwj7+etj(3*=wtsq8n3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sleepy-bastion-96591.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['sleepy-bastion-96591.herokuapp.com', 'localhost', '127.0.0.1' ]
 
 
 # Application definition
