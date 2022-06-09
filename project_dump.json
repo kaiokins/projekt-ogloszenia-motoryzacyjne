@@ -11,8 +11,8 @@
         "power": 101,
         "fuel": "Benzyna",
         "transmission": "Manualna",
-        "condition": "Uøywane",
-        "description": "<p>Przedmiotem og≥oszenia jest Audi A3 8P z silnikiem benzynowym 1.6MPI o mocy 102KM. 2006 rocznik. Aktualny przebieg to 217 000 km. Auto zakupi≥em pod koniec 2018 roku z przebiegiem 195 000 km. W ciπgu trzech lat uøytkowania zosta≥y wymienione nastÍpujπce rzeczy :<br />\r\n-rozrzπd (przy przebiegu 195 000km)<br />\r\n-ch≥odnica<br />\r\n-úwiece, cewka i przewody zap≥onowe<br />\r\n-t≥umik úrodkowy i koÒcowy<br />\r\n-amortyzatory i sprÍøyny (prz&oacute;d i ty≥)<br />\r\n-tarcze i klocki (prz&oacute;d i ty≥ w 2020)<br />\r\n-termostat<br />\r\n-piasta i ≥oøysko ko≥a<br />\r\n-filtry i oleje na bieøπco (ostatni przy przebiegu 217 000km dnia 29.12.2021 wraz z p≥ukankπ silnika)<br />\r\n-uszczelka pod pokrywπ zawor&oacute;w<br />\r\n<br />\r\nAuto jest doinwestowane i nie wymaga øadnego wk≥adu finansowego. Obecnie stoi na letnich oponach 17 calowych firmy Pirelli (rok 2019). Do auta dok≥adam komplet opon zimowych 17 calowych firmy Falken (rok 2018). Audi jest ubezpieczone do listopada 2022 i ma aktualne badanie techniczne do listopada 2022. Dla zainteresowanych mogÍ wys≥aÊ wiÍcej zdjÍÊ lub filmiki. Auto jest w ciπg≥ej eksploatacji, wiÍc przebieg bÍdzie siÍ m&oacute;g≥ delikatnie zmieniÊ. ZachÍcam do kupna.</p>",
+        "condition": "U≈ºywane",
+        "description": "<p>Przedmiotem og≈Çoszenia jest Audi A3 8P z silnikiem benzynowym 1.6MPI o mocy 102KM. 2006 rocznik. Aktualny przebieg to 217 000 km. Auto zakupi≈Çem pod koniec 2018 roku z przebiegiem 195 000 km. W ciƒÖgu trzech lat u≈ºytkowania zosta≈Çy wymienione nastƒôpujƒÖce rzeczy :<br />\r\n-rozrzƒÖd (przy przebiegu 195 000km)<br />\r\n-ch≈Çodnica<br />\r\n-≈õwiece, cewka i przewody zap≈Çonowe<br />\r\n-t≈Çumik ≈õrodkowy i ko≈Ñcowy<br />\r\n-amortyzatory i sprƒô≈ºyny (prz&oacute;d i ty≈Ç)<br />\r\n-tarcze i klocki (prz&oacute;d i ty≈Ç w 2020)<br />\r\n-termostat<br />\r\n-piasta i ≈Ço≈ºysko ko≈Ça<br />\r\n-filtry i oleje na bie≈ºƒÖco (ostatni przy przebiegu 217 000km dnia 29.12.2021 wraz z p≈ÇukankƒÖ silnika)<br />\r\n-uszczelka pod pokrywƒÖ zawor&oacute;w<br />\r\n<br />\r\nAuto jest doinwestowane i nie wymaga ≈ºadnego wk≈Çadu finansowego. Obecnie stoi na letnich oponach 17 calowych firmy Pirelli (rok 2019). Do auta dok≈Çadam komplet opon zimowych 17 calowych firmy Falken (rok 2018). Audi jest ubezpieczone do listopada 2022 i ma aktualne badanie techniczne do listopada 2022. Dla zainteresowanych mogƒô wys≈Çaƒá wiƒôcej zdjƒôƒá lub filmiki. Auto jest w ciƒÖg≈Çej eksploatacji, wiƒôc przebieg bƒôdzie siƒô m&oacute;g≈Ç delikatnie zmieniƒá. Zachƒôcam do kupna.</p>",
         "price": 19000,
         "photo1": "photos/202205/19/Audi_a3_1.jpg",
         "photo2": "photos/202205/19/Audi_a3_2.jpg",
@@ -20,7 +20,7 @@
         "photo4": "photos/202205/19/Audi_a3_4.jpg",
         "photo5": "photos/202205/19/Audi_a3_5.jpg",
         "color": "Czarny",
-        "features": "Interfejs Bluetooth,Radio,Klimatyzacja automatyczna,Podgrzewany fotel pasaøera,Podgrzewany fotel kierowcy,Elektryczne szyby przednie,Elektryczne szyby tylne,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne",
+        "features": "Interfejs Bluetooth,Radio,Klimatyzacja automatyczna,Podgrzewany fotel pasa≈ºera,Podgrzewany fotel kierowcy,Elektryczne szyby przednie,Elektryczne szyby tylne,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne",
         "body": "Hatchback",
         "doors": "5",
         "kilometeres": 217000,
@@ -28,7 +28,7 @@
         "vin": "WAUDNAF46HN048584",
         "isFeatured": true,
         "province": "Pomorskie",
-        "city": "Starograd GraÒski",
+        "city": "Starograd Gra≈Ñski",
         "added": "2022-05-19T17:29:57Z"
     }
 },
@@ -44,8 +44,8 @@
         "power": 600,
         "fuel": "Benzyna",
         "transmission": "Automatyczna",
-        "condition": "Uøywane",
-        "description": "<p>Stan jak na foto, wiÍcej info telefonicznie.</p>",
+        "condition": "U≈ºywane",
+        "description": "<p>Stan jak na foto, wiƒôcej info telefonicznie.</p>",
         "price": 215250,
         "photo1": "photos/202205/19/Bmw_m5_1.jpg",
         "photo2": "photos/202205/19/Bmw_m5_2.jpg",
@@ -53,7 +53,7 @@
         "photo4": "photos/202205/19/Bmw_m5_4.jpg",
         "photo5": "photos/202205/19/Bmw_m5_5.jpg",
         "color": "Niebieski",
-        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Klimatyzacja manualna,Tapicerka skÛrzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasaøera,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasaøera,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Przyciemniane tylne szyby,Tempomat,Lampy ksenonowe,Kontrola odleg≥oúci z ty≥u (przy parkowaniu),Kamera parkowania ty≥,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Kamera w lusterku bocznym,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciÍcego)",
+        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Klimatyzacja manualna,Tapicerka sk√≥rzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasa≈ºera,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasa≈ºera,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Przyciemniane tylne szyby,Tempomat,Lampy ksenonowe,Kontrola odleg≈Ço≈õci z ty≈Çu (przy parkowaniu),Kamera parkowania ty≈Ç,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Kamera w lusterku bocznym,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciƒôcego)",
         "body": "Sedan",
         "doors": "5",
         "kilometeres": 165000,
@@ -77,8 +77,8 @@
         "power": 210,
         "fuel": "Diesel",
         "transmission": "Manualna",
-        "condition": "Uøywane",
-        "description": "<p>Witam !!<br />\r\nPosiadam do sprzedaøy piÍkny rodzinny i wyjπtkowo komfortowy samoch&oacute;d Opel Astra J<br />\r\nZapraszam auto Bezwypadkowe i serwisowane !!!<br />\r\n<br />\r\nModel 2011<br />\r\nRok produkcji 2011<br />\r\nSAMOCH&Oacute;D åwieøo sprowadzony z Niemiec .<br />\r\nAuto po wszystkich op≥atach celno - skarbowych Gotowy do rejestracji w Polsce .</p>",
+        "condition": "U≈ºywane",
+        "description": "<p>Witam !!<br />\r\nPosiadam do sprzeda≈ºy piƒôkny rodzinny i wyjƒÖtkowo komfortowy samoch&oacute;d Opel Astra J<br />\r\nZapraszam auto Bezwypadkowe i serwisowane !!!<br />\r\n<br />\r\nModel 2011<br />\r\nRok produkcji 2011<br />\r\nSAMOCH&Oacute;D ≈öwie≈ºo sprowadzony z Niemiec .<br />\r\nAuto po wszystkich op≈Çatach celno - skarbowych Gotowy do rejestracji w Polsce .</p>",
         "price": 26500,
         "photo1": "photos/202205/19/Astra_IV_1.jpg",
         "photo2": "photos/202205/19/Astra_IV_2.jpg",
@@ -86,15 +86,15 @@
         "photo4": "photos/202205/19/Astra_IV_4.jpg",
         "photo5": "photos/202205/19/Astra_IV_5.jpg",
         "color": "Szary",
-        "features": "Interfejs Bluetooth,Radio,Klimatyzacja automatyczna,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasaøera,Elektrycznie ustawiany fotel pasaøera,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Tempomat,Kontrola odleg≥oúci z ty≥u (przy parkowaniu),Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciÍcego)",
+        "features": "Interfejs Bluetooth,Radio,Klimatyzacja automatyczna,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasa≈ºera,Elektrycznie ustawiany fotel pasa≈ºera,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Tempomat,Kontrola odleg≈Ço≈õci z ty≈Çu (przy parkowaniu),Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciƒôcego)",
         "body": "Kombi",
         "doors": "5",
         "kilometeres": 194000,
         "passengers": 5,
         "vin": "WVVDNAF415N045354",
         "isFeatured": true,
-        "province": "Ma≥opolskie",
-        "city": "KrakÛw",
+        "province": "Ma≈Çopolskie",
+        "city": "Krak√≥w",
         "added": "2022-05-19T17:37:34Z"
     }
 },
@@ -111,23 +111,23 @@
         "fuel": "Diesel",
         "transmission": "Manualna",
         "condition": "Uszkodzone",
-        "description": "<p>- - - SUZUKI VITARA - - -<br />\r\n<br />\r\n- UK£AD JEZDNY NIERUSZONY<br />\r\n- 1.6 120KM DIESEL<br />\r\n- NISKI PRZEBIEG<br />\r\n- bardzo bogata wersja wyposaøenie:</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>MoøliwoúÊ transportu samochodu</p>",
+        "description": "<p>- - - SUZUKI VITARA - - -<br />\r\n<br />\r\n- UK≈ÅAD JEZDNY NIERUSZONY<br />\r\n- 1.6 120KM DIESEL<br />\r\n- NISKI PRZEBIEG<br />\r\n- bardzo bogata wersja wyposa≈ºenie:</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Mo≈ºliwo≈õƒá transportu samochodu</p>",
         "price": 31700,
         "photo1": "photos/202205/19/Vitara_1.jpg",
         "photo2": "photos/202205/19/Vitara_2.jpg",
         "photo3": "photos/202205/19/Vitara_3.jpg",
         "photo4": "photos/202205/19/Vitara_4.jpg",
         "photo5": "photos/202205/19/Vitara_5.jpg",
-        "color": "Bia≥y",
-        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka skÛrzana,Podgrzewany fotel pasaøera,Podgrzewany fotel kierowcy,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Przyciemniane tylne szyby,Tempomat,Kontrola odleg≥oúci z ty≥u (przy parkowaniu),Kamera parkowania ty≥,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciÍcego)",
+        "color": "Bia≈Çy",
+        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka sk√≥rzana,Podgrzewany fotel pasa≈ºera,Podgrzewany fotel kierowcy,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Przyciemniane tylne szyby,Tempomat,Kontrola odleg≈Ço≈õci z ty≈Çu (przy parkowaniu),Kamera parkowania ty≈Ç,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciƒôcego)",
         "body": "Suv",
         "doors": "5",
         "kilometeres": 91000,
         "passengers": 5,
         "vin": "SV495900KMNAI49903",
         "isFeatured": false,
-        "province": "Ma≥opolskie",
-        "city": "TarnÛw",
+        "province": "Ma≈Çopolskie",
+        "city": "Tarn√≥w",
         "added": "2022-05-19T17:52:32Z"
     }
 },
@@ -143,8 +143,8 @@
         "power": 330,
         "fuel": "Diesel",
         "transmission": "Automatyczna",
-        "condition": "Uøywane",
-        "description": "<p>Samoch&oacute;d w stanie idealnym pe≥ny detaling, kupiony w salonie Porsche Katowice<br />\r\nSilnik pracuje r&oacute;wno, wszystko sprawne,<br />\r\nPierwszy w≥aúciciel, serwisowany w serwisie porsche, bezwypadkowy<br />\r\nWersja pe≥na wyposaøenia, zestawienie wyposaøenia na øyczenie, hak holowniczy elektryczny nigdy nie ciπgnπ≥ przyczepy, szyby wyciszone wraz z nadwoziem.<br />\r\nDodatkowo opony michelin zimowe 1 sezon.</p>",
+        "condition": "U≈ºywane",
+        "description": "<p>Samoch&oacute;d w stanie idealnym pe≈Çny detaling, kupiony w salonie Porsche Katowice<br />\r\nSilnik pracuje r&oacute;wno, wszystko sprawne,<br />\r\nPierwszy w≈Ça≈õciciel, serwisowany w serwisie porsche, bezwypadkowy<br />\r\nWersja pe≈Çna wyposa≈ºenia, zestawienie wyposa≈ºenia na ≈ºyczenie, hak holowniczy elektryczny nigdy nie ciƒÖgnƒÖ≈Ç przyczepy, szyby wyciszone wraz z nadwoziem.<br />\r\nDodatkowo opony michelin zimowe 1 sezon.</p>",
         "price": 215250,
         "photo1": "photos/202206/03/Porsche_Cayene_1.png",
         "photo2": "photos/202206/03/Porsche_Cayene_2.png",
@@ -152,15 +152,15 @@
         "photo4": "photos/202206/03/Porsche_Cayene_4.png",
         "photo5": "photos/202206/03/Porsche_Cayene_5.png",
         "color": "Szary",
-        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka skÛrzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasaøera,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasaøera,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Przyciemniane tylne szyby,Tempomat,Lampy ksenonowe,Kontrola odleg≥oúci z ty≥u (przy parkowaniu),Kamera parkowania ty≥,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Isofix (punkty mocowania fotelika dzieciÍcego)",
+        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka sk√≥rzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasa≈ºera,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasa≈ºera,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Przyciemniane tylne szyby,Tempomat,Lampy ksenonowe,Kontrola odleg≈Ço≈õci z ty≈Çu (przy parkowaniu),Kamera parkowania ty≈Ç,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Isofix (punkty mocowania fotelika dzieciƒôcego)",
         "body": "Suv",
         "doors": "5",
         "kilometeres": 198000,
         "passengers": 5,
         "vin": "VP44222005TTMG44",
         "isFeatured": true,
-        "province": "Ma≥opolskie",
-        "city": "KrakÛw",
+        "province": "Ma≈Çopolskie",
+        "city": "Krak√≥w",
         "added": "2022-06-03T17:45:53Z"
     }
 },
@@ -176,7 +176,7 @@
         "power": 657,
         "fuel": "Benzyna",
         "transmission": "Automatyczna",
-        "condition": "Uøywane",
+        "condition": "U≈ºywane",
         "description": "<p>Do sprzedania supersamoch&oacute;d w idealnym stanie, oryginalny lakier.</p>",
         "price": 345000,
         "photo1": "photos/202206/03/Lexus_LC_1.png",
@@ -185,15 +185,15 @@
         "photo4": "photos/202206/03/Lexus_LC_4.png",
         "photo5": "photos/202206/03/Lexus_LC_5.png",
         "color": "Srebrny",
-        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka skÛrzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasaøera,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasaøera,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Przyciemniane tylne szyby,Tempomat,Lampy ksenonowe,Kontrola odleg≥oúci z ty≥u (przy parkowaniu),Kamera parkowania ty≥,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Kamera w lusterku bocznym,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciÍcego)",
-        "body": "SupersamochÛd",
+        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka sk√≥rzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasa≈ºera,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasa≈ºera,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Przyciemniane tylne szyby,Tempomat,Lampy ksenonowe,Kontrola odleg≈Ço≈õci z ty≈Çu (przy parkowaniu),Kamera parkowania ty≈Ç,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Kamera w lusterku bocznym,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciƒôcego)",
+        "body": "Supersamoch√≥d",
         "doors": "2",
         "kilometeres": 16700,
         "passengers": 4,
         "vin": "LC522200FGSK053",
         "isFeatured": false,
         "province": "Podkarpackie",
-        "city": "RzeszÛw",
+        "city": "Rzesz√≥w",
         "added": "2022-06-03T17:54:30Z"
     }
 },
@@ -209,16 +209,16 @@
         "power": 306,
         "fuel": "Benzyna",
         "transmission": "Manualna",
-        "condition": "Uøywane",
-        "description": "<p>Mercedes CLA 45 AMG 4MATIC+ z pakietem night oraz areodynamicznym<br />\r\n<br />\r\n2.0 benzyna 387KM - cena katalogowa to oko≥o 345tys z≥<br />\r\n<br />\r\nPrzebieg oko≥o 11500km. Auto w pe≥ni sprawne, posiadam je od ponad roku, garaøowane, po≥oøona pow≥oka ceramiczna firmy FXPROTECT (zabezpiecznie na 3 lata), nie wymaga øadnego wk≥adu finansowego</p>\r\n\r\n<p>ODATKOWO:<br />\r\n- w aucie zamontowany carbonowy uk≥ad dolotowy ARMASPEED dla delikatnej poprawy brzmienia. Do auta dorzucam r&oacute;wnieø poprzedni - oryginalny dolot<br />\r\n<br />\r\n- dwa komplety opon<br />\r\nzima - Continental ContiWinterContact 235/55/19<br />\r\nlato - Michellin Pilot 4S 235/55/19<br />\r\n<br />\r\n- dwa komplety wycieraczek<br />\r\nzima - gumowe - dopasowane specjalnie do tego modelu<br />\r\nlato - oryginalne welurowe AMG</p>",
+        "condition": "U≈ºywane",
+        "description": "<p>Mercedes CLA 45 AMG 4MATIC+ z pakietem night oraz areodynamicznym<br />\r\n<br />\r\n2.0 benzyna 387KM - cena katalogowa to oko≈Ço 345tys z≈Ç<br />\r\n<br />\r\nPrzebieg oko≈Ço 11500km. Auto w pe≈Çni sprawne, posiadam je od ponad roku, gara≈ºowane, po≈Ço≈ºona pow≈Çoka ceramiczna firmy FXPROTECT (zabezpiecznie na 3 lata), nie wymaga ≈ºadnego wk≈Çadu finansowego</p>\r\n\r\n<p>ODATKOWO:<br />\r\n- w aucie zamontowany carbonowy uk≈Çad dolotowy ARMASPEED dla delikatnej poprawy brzmienia. Do auta dorzucam r&oacute;wnie≈º poprzedni - oryginalny dolot<br />\r\n<br />\r\n- dwa komplety opon<br />\r\nzima - Continental ContiWinterContact 235/55/19<br />\r\nlato - Michellin Pilot 4S 235/55/19<br />\r\n<br />\r\n- dwa komplety wycieraczek<br />\r\nzima - gumowe - dopasowane specjalnie do tego modelu<br />\r\nlato - oryginalne welurowe AMG</p>",
         "price": 249900,
         "photo1": "photos/202206/03/Mercedes_CLA_1.png",
         "photo2": "photos/202206/03/Mercedes_CLA_2.png",
         "photo3": "photos/202206/03/Mercedes_CLA_3.png",
         "photo4": "photos/202206/03/Mercedes_CLA_4.png",
         "photo5": "photos/202206/03/Mercedes_CLA_5.png",
-        "color": "Bia≥y",
-        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka skÛrzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasaøera,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasaøera,Podgrzewana przednia szyba,Elektryczne szyby przednie,Tempomat,Lampy ksenonowe,Kontrola odleg≥oúci z ty≥u (przy parkowaniu),Kamera parkowania ty≥,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Kamera w lusterku bocznym,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciÍcego)",
+        "color": "Bia≈Çy",
+        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka sk√≥rzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasa≈ºera,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasa≈ºera,Podgrzewana przednia szyba,Elektryczne szyby przednie,Tempomat,Lampy ksenonowe,Kontrola odleg≈Ço≈õci z ty≈Çu (przy parkowaniu),Kamera parkowania ty≈Ç,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Kamera w lusterku bocznym,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciƒôcego)",
         "body": "Coupe",
         "doors": "5",
         "kilometeres": 11500,
@@ -242,8 +242,8 @@
         "power": 340,
         "fuel": "Benzyna",
         "transmission": "Automatyczna",
-        "condition": "Uøywane",
-        "description": "<p>Sprzedam piÍkny egzemplarz BMW M240i z napÍdem na 4 ko≥a X drive - 340 KM<br />\r\n<br />\r\nAuto w idealnym stanie wizualnym i technicznym.<br />\r\nAktualnie po serwisie Oleje+ filtry , serwis klimatyzacji.<br />\r\nNowe felgi 19 Competition + nowe opony HANKOOK - bieønik 100%<br />\r\n<br />\r\nBMW w bardzo bogatej wersji wyposaøenia.<br />\r\n<br />\r\n100% gwarancja przebiegu.<br />\r\nSamoch&oacute;d bezwypadkowy ,<br />\r\nw przesz≥oúci mia≥ drobnπ kolizje (wymieniony przedni zderzak - zdjÍcia do wglπdu)</p>",
+        "condition": "U≈ºywane",
+        "description": "<p>Sprzedam piƒôkny egzemplarz BMW M240i z napƒôdem na 4 ko≈Ça X drive - 340 KM<br />\r\n<br />\r\nAuto w idealnym stanie wizualnym i technicznym.<br />\r\nAktualnie po serwisie Oleje+ filtry , serwis klimatyzacji.<br />\r\nNowe felgi 19 Competition + nowe opony HANKOOK - bie≈ºnik 100%<br />\r\n<br />\r\nBMW w bardzo bogatej wersji wyposa≈ºenia.<br />\r\n<br />\r\n100% gwarancja przebiegu.<br />\r\nSamoch&oacute;d bezwypadkowy ,<br />\r\nw przesz≈Ço≈õci mia≈Ç drobnƒÖ kolizje (wymieniony przedni zderzak - zdjƒôcia do wglƒÖdu)</p>",
         "price": 136000,
         "photo1": "photos/202206/03/BMW_M240i_1.png",
         "photo2": "photos/202206/03/BMW_M240i_2.png",
@@ -251,7 +251,7 @@
         "photo4": "photos/202206/03/BMW_M240i_4.png",
         "photo5": "photos/202206/03/BMW_M240i_5.png",
         "color": "Niebieski",
-        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka skÛrzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasaøera,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasaøera,Elektryczne szyby przednie,Tempomat,Lampy ksenonowe,Kontrola odleg≥oúci z ty≥u (przy parkowaniu),Kamera parkowania ty≥,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciÍcego)",
+        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka sk√≥rzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasa≈ºera,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasa≈ºera,Elektryczne szyby przednie,Tempomat,Lampy ksenonowe,Kontrola odleg≈Ço≈õci z ty≈Çu (przy parkowaniu),Kamera parkowania ty≈Ç,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciƒôcego)",
         "body": "Coupe",
         "doors": "2",
         "kilometeres": 92000,
@@ -275,8 +275,8 @@
         "power": 82,
         "fuel": "Benzyna",
         "transmission": "Manualna",
-        "condition": "Uøywane",
-        "description": "<p>OKAZJA!!- Auto dla kolekcjonera.<br />\r\n<br />\r\nSprzedam piÍknego Poloneza w oryginale. Auto od 1 w≥aúciciela.<br />\r\nAktualny przebieg wynosi 17.000km.<br />\r\nAuto odpalam 6 razy w roku, za kaødym razem jeødøone 2-4 km. Auto ig≥a, w oryginalnym malowaniu bez grama rdzy. Kierownica, tapicerka, fotele, wyk≥adzina w stanie jak nowe.<br />\r\nSilnik stan jak nowy. Blacharka i lakier r&oacute;wnieø w idealnym stanie.<br />\r\nJeøeli ktoú szuka auta w idealnym stanie zachÍcam, naprawdÍ warto.<br />\r\nPosiadam kolekcje kilka aut oraz kilka motocykli zabytkowych do sprzedaøy. (wysprzedaø kolekcji)</p>",
+        "condition": "U≈ºywane",
+        "description": "<p>OKAZJA!!- Auto dla kolekcjonera.<br />\r\n<br />\r\nSprzedam piƒôknego Poloneza w oryginale. Auto od 1 w≈Ça≈õciciela.<br />\r\nAktualny przebieg wynosi 17.000km.<br />\r\nAuto odpalam 6 razy w roku, za ka≈ºdym razem je≈ºd≈ºone 2-4 km. Auto ig≈Ça, w oryginalnym malowaniu bez grama rdzy. Kierownica, tapicerka, fotele, wyk≈Çadzina w stanie jak nowe.<br />\r\nSilnik stan jak nowy. Blacharka i lakier r&oacute;wnie≈º w idealnym stanie.<br />\r\nJe≈ºeli kto≈õ szuka auta w idealnym stanie zachƒôcam, naprawdƒô warto.<br />\r\nPosiadam kolekcje kilka aut oraz kilka motocykli zabytkowych do sprzeda≈ºy. (wysprzeda≈º kolekcji)</p>",
         "price": 49900,
         "photo1": "photos/202206/03/Polonez_Borewicz_1.png",
         "photo2": "photos/202206/03/Polonez_Borewicz_2.png",
@@ -291,8 +291,8 @@
         "passengers": 5,
         "vin": "PVWW400PL100BOR2",
         "isFeatured": false,
-        "province": "Dolnoúlπskie",
-        "city": "Dusznik-ZdrÛj",
+        "province": "Dolno≈õlƒÖskie",
+        "city": "Dusznik-Zdr√≥j",
         "added": "2022-06-03T18:55:27Z"
     }
 },
@@ -308,8 +308,8 @@
         "power": 200,
         "fuel": "Benzyna",
         "transmission": "Automatyczna",
-        "condition": "Uøywane",
-        "description": "<p>- Lincoln Town - Car 5,0 FI 200 KM<br />\r\n- Wersja 5 os z najlepszym wyposaøeniem<br />\r\n- Wyposaøenie : 4x elektryczne szyby ,automatyczna skrzynia bieg&oacute;w, cyfrowe zegary, ABS, ESP, centralny zamek z pilota, alarm, kolor jasno bordowy, automatycznie ustawiane fotele, fotele sk&oacute;rzane, tempomat, termometr zewnÍtrzny, klimatyzacja automatyczna dwu strefowa , wspomaganie kierownicy , automatyczne lusterka<br />\r\n- Auto sprowadzone ze Stan&oacute;w Zjednoczonych<br />\r\n- Nie zawodna wersja silnikowa 5,0 EFI<br />\r\n- Nowe opony wielosezonowe<br />\r\n- Karoseria bez úlad&oacute;w rdzy ale do poprawek lakierniczych</p>",
+        "condition": "U≈ºywane",
+        "description": "<p>- Lincoln Town - Car 5,0 FI 200 KM<br />\r\n- Wersja 5 os z najlepszym wyposa≈ºeniem<br />\r\n- Wyposa≈ºenie : 4x elektryczne szyby ,automatyczna skrzynia bieg&oacute;w, cyfrowe zegary, ABS, ESP, centralny zamek z pilota, alarm, kolor jasno bordowy, automatycznie ustawiane fotele, fotele sk&oacute;rzane, tempomat, termometr zewnƒôtrzny, klimatyzacja automatyczna dwu strefowa , wspomaganie kierownicy , automatyczne lusterka<br />\r\n- Auto sprowadzone ze Stan&oacute;w Zjednoczonych<br />\r\n- Nie zawodna wersja silnikowa 5,0 EFI<br />\r\n- Nowe opony wielosezonowe<br />\r\n- Karoseria bez ≈õlad&oacute;w rdzy ale do poprawek lakierniczych</p>",
         "price": 46000,
         "photo1": "photos/202206/03/Lincoln_Old_Town_1.png",
         "photo2": "photos/202206/03/Lincoln_Old_Town_2.png",
@@ -317,7 +317,7 @@
         "photo4": "photos/202206/03/Lincoln_Old_Town_4.png",
         "photo5": "photos/202206/03/Lincoln_Old_Town_5.png",
         "color": "Bordowy",
-        "features": "Klimatyzacja automatyczna,Elektrycznie ustawiany fotel kierowcy,Elektrycznie ustawiany fotel pasaøera",
+        "features": "Klimatyzacja automatyczna,Elektrycznie ustawiany fotel kierowcy,Elektrycznie ustawiany fotel pasa≈ºera",
         "body": "Sedan",
         "doors": "4",
         "kilometeres": 432914,
@@ -335,7 +335,7 @@
     "fields": {
         "firstName": "Karolina",
         "lastName": "Lewandowska",
-        "qualification": "Specjalista ds. sprzedaøy",
+        "qualification": "Specjalista ds. sprzeda≈ºy",
         "photo": "photos/2022/05/16/avatar-9_lxCFPbm.jpg",
         "facebook": "https://www.facebook.com",
         "twitter": "https://twitter.com",
@@ -380,7 +380,7 @@
     "fields": {
         "firstName": "Sebastian",
         "lastName": "Kowalski",
-        "qualification": "Specjalista ds. sprzedaøy",
+        "qualification": "Specjalista ds. sprzeda≈ºy",
         "photo": "photos/2022/05/16/avatar-12.jpg",
         "facebook": "https://www.facebook.com",
         "twitter": "https://twitter.com",
@@ -395,7 +395,7 @@
     "fields": {
         "firstName": "Piotr",
         "lastName": "Pawlak",
-        "qualification": "Kierownik dzia≥u logistyki",
+        "qualification": "Kierownik dzia≈Çu logistyki",
         "photo": "photos/2022/05/16/avatar-11.jpg",
         "facebook": "https://www.facebook.com",
         "twitter": "https://twitter.com",
@@ -425,7 +425,7 @@
     "fields": {
         "firstName": "Jakub",
         "lastName": "Godfryd",
-        "qualification": "W≥aúciciel",
+        "qualification": "W≈Ça≈õciciel",
         "photo": "photos/2022/05/16/avatar-1_HoZTwKX.jpg",
         "facebook": "https://www.facebook.com",
         "twitter": "https://twitter.com",
@@ -449,7 +449,7 @@
         "province": "Podkarpckie",
         "email": "adrianmarciniak@twojmail.com",
         "phoneNumber": "123456789",
-        "message": "Czy pod≥oga zosta≥a mocno przesuniÍta?"
+        "message": "Czy pod≈Çoga zosta≈Ça mocno przesuniƒôta?"
     }
 },
 {
@@ -461,13 +461,13 @@
         "carId": 3,
         "userId": 1,
         "added": "2022-05-27T18:55:42Z",
-        "question": "ChcÍ uzyskaÊ wiÍcej informacji",
+        "question": "Chcƒô uzyskaƒá wiƒôcej informacji",
         "carTitle": "Opel Astra IV Diesel Wersja COSMO",
         "city": "Osobnica",
         "province": "Podkarpckie",
         "email": "godfrydkuba@gmail.com",
         "phoneNumber": "123456789",
-        "message": "Czy mogÍ prosiÊ o raport napraw?"
+        "message": "Czy mogƒô prosiƒá o raport napraw?"
     }
 },
 {
@@ -479,13 +479,13 @@
         "carId": 5,
         "userId": 0,
         "added": "2022-05-31T19:45:06.807Z",
-        "question": "ChcÍ uzyskaÊ wiÍcej informacji",
+        "question": "Chcƒô uzyskaƒá wiƒôcej informacji",
         "carTitle": "Suzuki Vitara uszkodzona",
-        "city": "KrakÛw",
-        "province": "Ma≥opolskie",
+        "city": "Krak√≥w",
+        "province": "Ma≈Çopolskie",
         "email": "adrian@myco.com",
         "phoneNumber": "987654321",
-        "message": "Kiedy mogÍ przyjechaÊ na jazdÍ testowπ?"
+        "message": "Kiedy mogƒô przyjechaƒá na jazdƒô testowƒÖ?"
     }
 },
 {
@@ -497,13 +497,13 @@
         "carId": 13,
         "userId": 1,
         "added": "2022-06-03T19:11:26.375Z",
-        "question": "ChcÍ uzyskaÊ wiÍcej informacji",
+        "question": "Chcƒô uzyskaƒá wiƒôcej informacji",
         "carTitle": "Lincoln Town Car",
         "city": "Osobnica",
         "province": "Podkarpckie",
         "email": "godfrydkuba@gmail.com",
         "phoneNumber": "123456789",
-        "message": "Ciekawy klasyk, jak wyglπda úrednie spalanie w takim samochodzie?"
+        "message": "Ciekawy klasyk, jak wyglƒÖda ≈õrednie spalanie w takim samochodzie?"
     }
 },
 {
@@ -515,7 +515,7 @@
         "carId": 8,
         "userId": 1,
         "added": "2022-06-05T19:43:21.555Z",
-        "question": "ChcÍ uzyskaÊ wiÍcej informacji",
+        "question": "Chcƒô uzyskaƒá wiƒôcej informacji",
         "carTitle": "Porsche Cayenne S Diesel",
         "city": "Osobnica",
         "province": "Podkarpckie",
@@ -533,13 +533,13 @@
         "carId": 13,
         "userId": 0,
         "added": "2022-06-08T19:50:50.922Z",
-        "question": "ChcÍ uzyskaÊ wiÍcej informacji",
+        "question": "Chcƒô uzyskaƒá wiƒôcej informacji",
         "carTitle": "Lincoln Town Car",
-        "city": "RzeszÛw",
+        "city": "Rzesz√≥w",
         "province": "Podkarpackie",
         "email": "wolovig965@musezoo.com",
         "phoneNumber": "123456789",
-        "message": "åwietny samochÛd, jak wyglπda spalanie w trasie?"
+        "message": "≈öwietny samoch√≥d, jak wyglƒÖda spalanie w trasie?"
     }
 },
 {
@@ -557,7 +557,7 @@
         "province": "Podkarpckie",
         "email": "godfrydkuba@gmail.com",
         "phoneNumber": "123456789",
-        "message": "Kiedy mogÍ siÍ umÛwiÊ na jazdÍ testowπ?"
+        "message": "Kiedy mogƒô siƒô um√≥wiƒá na jazdƒô testowƒÖ?"
     }
 },
 {
@@ -758,7 +758,7 @@
             "team"
         ],
         "object_id": "7",
-        "object_repr": "Karolina Lewandowska | ZastÍpca kierownika",
+        "object_repr": "Karolina Lewandowska | Zastƒôpca kierownika",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -776,7 +776,7 @@
             "team"
         ],
         "object_id": "7",
-        "object_repr": "Jakub Godfryd | W≥aúciciel",
+        "object_repr": "Jakub Godfryd | W≈Ça≈õciciel",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"FirstName\", \"LastName\", \"Qualification\", \"Photo\"]}}]"
     }
@@ -794,7 +794,7 @@
             "team"
         ],
         "object_id": "1",
-        "object_repr": "Karolina Lewandowska | Specjalista ds. sprzedaøy",
+        "object_repr": "Karolina Lewandowska | Specjalista ds. sprzeda≈ºy",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"FirstName\", \"LastName\", \"Qualification\", \"Photo\"]}}]"
     }
