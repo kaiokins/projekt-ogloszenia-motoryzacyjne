@@ -1,0 +1,1738 @@
+[
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "title": "Audi A3 1.6 MPI *OKAZJA*",
+        "brand": "Audi",
+        "model": "A3",
+        "year": 2006,
+        "engine": "1.6",
+        "power": 101,
+        "fuel": "Benzyna",
+        "transmission": "Manualna",
+        "condition": "U¿ywane",
+        "description": "<p>Przedmiotem og³oszenia jest Audi A3 8P z silnikiem benzynowym 1.6MPI o mocy 102KM. 2006 rocznik. Aktualny przebieg to 217 000 km. Auto zakupi³em pod koniec 2018 roku z przebiegiem 195 000 km. W ci¹gu trzech lat u¿ytkowania zosta³y wymienione nastêpuj¹ce rzeczy :<br />\r\n-rozrz¹d (przy przebiegu 195 000km)<br />\r\n-ch³odnica<br />\r\n-œwiece, cewka i przewody zap³onowe<br />\r\n-t³umik œrodkowy i koñcowy<br />\r\n-amortyzatory i sprê¿yny (prz&oacute;d i ty³)<br />\r\n-tarcze i klocki (prz&oacute;d i ty³ w 2020)<br />\r\n-termostat<br />\r\n-piasta i ³o¿ysko ko³a<br />\r\n-filtry i oleje na bie¿¹co (ostatni przy przebiegu 217 000km dnia 29.12.2021 wraz z p³ukank¹ silnika)<br />\r\n-uszczelka pod pokryw¹ zawor&oacute;w<br />\r\n<br />\r\nAuto jest doinwestowane i nie wymaga ¿adnego wk³adu finansowego. Obecnie stoi na letnich oponach 17 calowych firmy Pirelli (rok 2019). Do auta dok³adam komplet opon zimowych 17 calowych firmy Falken (rok 2018). Audi jest ubezpieczone do listopada 2022 i ma aktualne badanie techniczne do listopada 2022. Dla zainteresowanych mogê wys³aæ wiêcej zdjêæ lub filmiki. Auto jest w ci¹g³ej eksploatacji, wiêc przebieg bêdzie siê m&oacute;g³ delikatnie zmieniæ. Zachêcam do kupna.</p>",
+        "price": 19000,
+        "photo1": "photos/202205/19/Audi_a3_1.jpg",
+        "photo2": "photos/202205/19/Audi_a3_2.jpg",
+        "photo3": "photos/202205/19/Audi_a3_3.jpg",
+        "photo4": "photos/202205/19/Audi_a3_4.jpg",
+        "photo5": "photos/202205/19/Audi_a3_5.jpg",
+        "color": "Czarny",
+        "features": "Interfejs Bluetooth,Radio,Klimatyzacja automatyczna,Podgrzewany fotel pasa¿era,Podgrzewany fotel kierowcy,Elektryczne szyby przednie,Elektryczne szyby tylne,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne",
+        "body": "Hatchback",
+        "doors": "5",
+        "kilometeres": 217000,
+        "passengers": 5,
+        "vin": "WAUDNAF46HN048584",
+        "isFeatured": true,
+        "province": "Pomorskie",
+        "city": "Starograd Grañski",
+        "added": "2022-05-19T17:29:57Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "title": "BMW M5",
+        "brand": "BMW",
+        "model": "M5",
+        "year": 2013,
+        "engine": "4.4",
+        "power": 600,
+        "fuel": "Benzyna",
+        "transmission": "Automatyczna",
+        "condition": "U¿ywane",
+        "description": "<p>Stan jak na foto, wiêcej info telefonicznie.</p>",
+        "price": 215250,
+        "photo1": "photos/202205/19/Bmw_m5_1.jpg",
+        "photo2": "photos/202205/19/Bmw_m5_2.jpg",
+        "photo3": "photos/202205/19/Bmw_m5_3.jpg",
+        "photo4": "photos/202205/19/Bmw_m5_4.jpg",
+        "photo5": "photos/202205/19/Bmw_m5_5.jpg",
+        "color": "Niebieski",
+        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Klimatyzacja manualna,Tapicerka skórzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasa¿era,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasa¿era,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Przyciemniane tylne szyby,Tempomat,Lampy ksenonowe,Kontrola odleg³oœci z ty³u (przy parkowaniu),Kamera parkowania ty³,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Kamera w lusterku bocznym,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciêcego)",
+        "body": "Sedan",
+        "doors": "5",
+        "kilometeres": 165000,
+        "passengers": 5,
+        "vin": "4Y1SL65848Z411439",
+        "isFeatured": false,
+        "province": "Mazowieckie",
+        "city": "Warszawa",
+        "added": "2022-05-19T17:32:02Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "title": "Opel Astra IV Diesel Wersja COSMO",
+        "brand": "Opel",
+        "model": "Astra",
+        "year": 2011,
+        "engine": "2.0",
+        "power": 210,
+        "fuel": "Diesel",
+        "transmission": "Manualna",
+        "condition": "U¿ywane",
+        "description": "<p>Witam !!<br />\r\nPosiadam do sprzeda¿y piêkny rodzinny i wyj¹tkowo komfortowy samoch&oacute;d Opel Astra J<br />\r\nZapraszam auto Bezwypadkowe i serwisowane !!!<br />\r\n<br />\r\nModel 2011<br />\r\nRok produkcji 2011<br />\r\nSAMOCH&Oacute;D Œwie¿o sprowadzony z Niemiec .<br />\r\nAuto po wszystkich op³atach celno - skarbowych Gotowy do rejestracji w Polsce .</p>",
+        "price": 26500,
+        "photo1": "photos/202205/19/Astra_IV_1.jpg",
+        "photo2": "photos/202205/19/Astra_IV_2.jpg",
+        "photo3": "photos/202205/19/Astra_IV_3.jpg",
+        "photo4": "photos/202205/19/Astra_IV_4.jpg",
+        "photo5": "photos/202205/19/Astra_IV_5.jpg",
+        "color": "Szary",
+        "features": "Interfejs Bluetooth,Radio,Klimatyzacja automatyczna,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasa¿era,Elektrycznie ustawiany fotel pasa¿era,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Tempomat,Kontrola odleg³oœci z ty³u (przy parkowaniu),Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciêcego)",
+        "body": "Kombi",
+        "doors": "5",
+        "kilometeres": 194000,
+        "passengers": 5,
+        "vin": "WVVDNAF415N045354",
+        "isFeatured": true,
+        "province": "Ma³opolskie",
+        "city": "Kraków",
+        "added": "2022-05-19T17:37:34Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "title": "Suzuki Vitara uszkodzona",
+        "brand": "Suzuki",
+        "model": "Vitara",
+        "year": 2016,
+        "engine": "1.6",
+        "power": 140,
+        "fuel": "Diesel",
+        "transmission": "Manualna",
+        "condition": "Uszkodzone",
+        "description": "<p>- - - SUZUKI VITARA - - -<br />\r\n<br />\r\n- UK£AD JEZDNY NIERUSZONY<br />\r\n- 1.6 120KM DIESEL<br />\r\n- NISKI PRZEBIEG<br />\r\n- bardzo bogata wersja wyposa¿enie:</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Mo¿liwoœæ transportu samochodu</p>",
+        "price": 31700,
+        "photo1": "photos/202205/19/Vitara_1.jpg",
+        "photo2": "photos/202205/19/Vitara_2.jpg",
+        "photo3": "photos/202205/19/Vitara_3.jpg",
+        "photo4": "photos/202205/19/Vitara_4.jpg",
+        "photo5": "photos/202205/19/Vitara_5.jpg",
+        "color": "Bia³y",
+        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka skórzana,Podgrzewany fotel pasa¿era,Podgrzewany fotel kierowcy,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Przyciemniane tylne szyby,Tempomat,Kontrola odleg³oœci z ty³u (przy parkowaniu),Kamera parkowania ty³,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciêcego)",
+        "body": "Suv",
+        "doors": "5",
+        "kilometeres": 91000,
+        "passengers": 5,
+        "vin": "SV495900KMNAI49903",
+        "isFeatured": false,
+        "province": "Ma³opolskie",
+        "city": "Tarnów",
+        "added": "2022-05-19T17:52:32Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 8,
+    "fields": {
+        "title": "Porsche Cayenne S Diesel",
+        "brand": "Porsche",
+        "model": "Cayenne",
+        "year": 2014,
+        "engine": "4.2",
+        "power": 330,
+        "fuel": "Diesel",
+        "transmission": "Automatyczna",
+        "condition": "U¿ywane",
+        "description": "<p>Samoch&oacute;d w stanie idealnym pe³ny detaling, kupiony w salonie Porsche Katowice<br />\r\nSilnik pracuje r&oacute;wno, wszystko sprawne,<br />\r\nPierwszy w³aœciciel, serwisowany w serwisie porsche, bezwypadkowy<br />\r\nWersja pe³na wyposa¿enia, zestawienie wyposa¿enia na ¿yczenie, hak holowniczy elektryczny nigdy nie ci¹gn¹³ przyczepy, szyby wyciszone wraz z nadwoziem.<br />\r\nDodatkowo opony michelin zimowe 1 sezon.</p>",
+        "price": 215250,
+        "photo1": "photos/202206/03/Porsche_Cayene_1.png",
+        "photo2": "photos/202206/03/Porsche_Cayene_2.png",
+        "photo3": "photos/202206/03/Porsche_Cayene_3.png",
+        "photo4": "photos/202206/03/Porsche_Cayene_4.png",
+        "photo5": "photos/202206/03/Porsche_Cayene_5.png",
+        "color": "Szary",
+        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka skórzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasa¿era,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasa¿era,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Przyciemniane tylne szyby,Tempomat,Lampy ksenonowe,Kontrola odleg³oœci z ty³u (przy parkowaniu),Kamera parkowania ty³,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Isofix (punkty mocowania fotelika dzieciêcego)",
+        "body": "Suv",
+        "doors": "5",
+        "kilometeres": 198000,
+        "passengers": 5,
+        "vin": "VP44222005TTMG44",
+        "isFeatured": true,
+        "province": "Ma³opolskie",
+        "city": "Kraków",
+        "added": "2022-06-03T17:45:53Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 9,
+    "fields": {
+        "title": "Lexus LC 500 Prestige",
+        "brand": "Lexus",
+        "model": "LC500",
+        "year": 2018,
+        "engine": "5.0",
+        "power": 657,
+        "fuel": "Benzyna",
+        "transmission": "Automatyczna",
+        "condition": "U¿ywane",
+        "description": "<p>Do sprzedania supersamoch&oacute;d w idealnym stanie, oryginalny lakier.</p>",
+        "price": 345000,
+        "photo1": "photos/202206/03/Lexus_LC_1.png",
+        "photo2": "photos/202206/03/Lexus_LC_2.png",
+        "photo3": "photos/202206/03/Lexus_LC_3.png",
+        "photo4": "photos/202206/03/Lexus_LC_4.png",
+        "photo5": "photos/202206/03/Lexus_LC_5.png",
+        "color": "Srebrny",
+        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka skórzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasa¿era,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasa¿era,Podgrzewana przednia szyba,Elektryczne szyby przednie,Elektryczne szyby tylne,Przyciemniane tylne szyby,Tempomat,Lampy ksenonowe,Kontrola odleg³oœci z ty³u (przy parkowaniu),Kamera parkowania ty³,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Kamera w lusterku bocznym,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciêcego)",
+        "body": "Supersamochód",
+        "doors": "2",
+        "kilometeres": 16700,
+        "passengers": 4,
+        "vin": "LC522200FGSK053",
+        "isFeatured": false,
+        "province": "Podkarpackie",
+        "city": "Rzeszów",
+        "added": "2022-06-03T17:54:30Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 10,
+    "fields": {
+        "title": "Mercedes-Benz CLA AMG 45 4-Matic 8G-DCT",
+        "brand": "Mercedes-Benz",
+        "model": "CLA",
+        "year": 2022,
+        "engine": "2.0",
+        "power": 306,
+        "fuel": "Benzyna",
+        "transmission": "Manualna",
+        "condition": "U¿ywane",
+        "description": "<p>Mercedes CLA 45 AMG 4MATIC+ z pakietem night oraz areodynamicznym<br />\r\n<br />\r\n2.0 benzyna 387KM - cena katalogowa to oko³o 345tys z³<br />\r\n<br />\r\nPrzebieg oko³o 11500km. Auto w pe³ni sprawne, posiadam je od ponad roku, gara¿owane, po³o¿ona pow³oka ceramiczna firmy FXPROTECT (zabezpiecznie na 3 lata), nie wymaga ¿adnego wk³adu finansowego</p>\r\n\r\n<p>ODATKOWO:<br />\r\n- w aucie zamontowany carbonowy uk³ad dolotowy ARMASPEED dla delikatnej poprawy brzmienia. Do auta dorzucam r&oacute;wnie¿ poprzedni - oryginalny dolot<br />\r\n<br />\r\n- dwa komplety opon<br />\r\nzima - Continental ContiWinterContact 235/55/19<br />\r\nlato - Michellin Pilot 4S 235/55/19<br />\r\n<br />\r\n- dwa komplety wycieraczek<br />\r\nzima - gumowe - dopasowane specjalnie do tego modelu<br />\r\nlato - oryginalne welurowe AMG</p>",
+        "price": 249900,
+        "photo1": "photos/202206/03/Mercedes_CLA_1.png",
+        "photo2": "photos/202206/03/Mercedes_CLA_2.png",
+        "photo3": "photos/202206/03/Mercedes_CLA_3.png",
+        "photo4": "photos/202206/03/Mercedes_CLA_4.png",
+        "photo5": "photos/202206/03/Mercedes_CLA_5.png",
+        "color": "Bia³y",
+        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka skórzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasa¿era,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasa¿era,Podgrzewana przednia szyba,Elektryczne szyby przednie,Tempomat,Lampy ksenonowe,Kontrola odleg³oœci z ty³u (przy parkowaniu),Kamera parkowania ty³,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Kamera w lusterku bocznym,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciêcego)",
+        "body": "Coupe",
+        "doors": "5",
+        "kilometeres": 11500,
+        "passengers": 5,
+        "vin": "MLY1SL34423GG11439",
+        "isFeatured": false,
+        "province": "Opolskie",
+        "city": "Opole",
+        "added": "2022-06-03T18:18:42Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 11,
+    "fields": {
+        "title": "BMW M240i",
+        "brand": "BMW",
+        "model": "Seria 2",
+        "year": 2017,
+        "engine": "3.0",
+        "power": 340,
+        "fuel": "Benzyna",
+        "transmission": "Automatyczna",
+        "condition": "U¿ywane",
+        "description": "<p>Sprzedam piêkny egzemplarz BMW M240i z napêdem na 4 ko³a X drive - 340 KM<br />\r\n<br />\r\nAuto w idealnym stanie wizualnym i technicznym.<br />\r\nAktualnie po serwisie Oleje+ filtry , serwis klimatyzacji.<br />\r\nNowe felgi 19 Competition + nowe opony HANKOOK - bie¿nik 100%<br />\r\n<br />\r\nBMW w bardzo bogatej wersji wyposa¿enia.<br />\r\n<br />\r\n100% gwarancja przebiegu.<br />\r\nSamoch&oacute;d bezwypadkowy ,<br />\r\nw przesz³oœci mia³ drobn¹ kolizje (wymieniony przedni zderzak - zdjêcia do wgl¹du)</p>",
+        "price": 136000,
+        "photo1": "photos/202206/03/BMW_M240i_1.png",
+        "photo2": "photos/202206/03/BMW_M240i_2.png",
+        "photo3": "photos/202206/03/BMW_M240i_3.png",
+        "photo4": "photos/202206/03/BMW_M240i_4.png",
+        "photo5": "photos/202206/03/BMW_M240i_5.png",
+        "color": "Niebieski",
+        "features": "Interfejs Bluetooth,Radio,System nawigacji satelitarnej,Klimatyzacja automatyczna,Tapicerka skórzana,Elektrycznie ustawiany fotel kierowcy,Podgrzewany fotel pasa¿era,Podgrzewany fotel kierowcy,Elektrycznie ustawiany fotel pasa¿era,Elektryczne szyby przednie,Tempomat,Lampy ksenonowe,Kontrola odleg³oœci z ty³u (przy parkowaniu),Kamera parkowania ty³,Lusterka boczne ustawiane elektrycznie,Podgrzewane lusterka boczne,Lampy przeciwmgielne,Wspomaganie kierownicy,ABS,ESP,Poduszki powietrzne,Isofix (punkty mocowania fotelika dzieciêcego)",
+        "body": "Coupe",
+        "doors": "2",
+        "kilometeres": 92000,
+        "passengers": 4,
+        "vin": "BWVVD3322415N045354",
+        "isFeatured": true,
+        "province": "Wielkopolskie",
+        "city": "Jarocin",
+        "added": "2022-06-03T18:42:34Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 12,
+    "fields": {
+        "title": "Polonez Borewicz 1.5",
+        "brand": "Polonez",
+        "model": "Borewicz",
+        "year": 1998,
+        "engine": "1.5",
+        "power": 82,
+        "fuel": "Benzyna",
+        "transmission": "Manualna",
+        "condition": "U¿ywane",
+        "description": "<p>OKAZJA!!- Auto dla kolekcjonera.<br />\r\n<br />\r\nSprzedam piêknego Poloneza w oryginale. Auto od 1 w³aœciciela.<br />\r\nAktualny przebieg wynosi 17.000km.<br />\r\nAuto odpalam 6 razy w roku, za ka¿dym razem je¿d¿one 2-4 km. Auto ig³a, w oryginalnym malowaniu bez grama rdzy. Kierownica, tapicerka, fotele, wyk³adzina w stanie jak nowe.<br />\r\nSilnik stan jak nowy. Blacharka i lakier r&oacute;wnie¿ w idealnym stanie.<br />\r\nJe¿eli ktoœ szuka auta w idealnym stanie zachêcam, naprawdê warto.<br />\r\nPosiadam kolekcje kilka aut oraz kilka motocykli zabytkowych do sprzeda¿y. (wysprzeda¿ kolekcji)</p>",
+        "price": 49900,
+        "photo1": "photos/202206/03/Polonez_Borewicz_1.png",
+        "photo2": "photos/202206/03/Polonez_Borewicz_2.png",
+        "photo3": "photos/202206/03/Polonez_Borewicz_3.png",
+        "photo4": "photos/202206/03/Polonez_Borewicz_4.png",
+        "photo5": "photos/202206/03/Polonez_Borewicz_5.png",
+        "color": "Niebieski",
+        "features": "Radio,Lampy przeciwmgielne",
+        "body": "Hatchback",
+        "doors": "5",
+        "kilometeres": 17000,
+        "passengers": 5,
+        "vin": "PVWW400PL100BOR2",
+        "isFeatured": false,
+        "province": "Dolnoœl¹skie",
+        "city": "Dusznik-Zdrój",
+        "added": "2022-06-03T18:55:27Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 13,
+    "fields": {
+        "title": "Lincoln Town Car",
+        "brand": "Lincoln",
+        "model": "Town Car",
+        "year": 1988,
+        "engine": "5.0",
+        "power": 200,
+        "fuel": "Benzyna",
+        "transmission": "Automatyczna",
+        "condition": "U¿ywane",
+        "description": "<p>- Lincoln Town - Car 5,0 FI 200 KM<br />\r\n- Wersja 5 os z najlepszym wyposa¿eniem<br />\r\n- Wyposa¿enie : 4x elektryczne szyby ,automatyczna skrzynia bieg&oacute;w, cyfrowe zegary, ABS, ESP, centralny zamek z pilota, alarm, kolor jasno bordowy, automatycznie ustawiane fotele, fotele sk&oacute;rzane, tempomat, termometr zewnêtrzny, klimatyzacja automatyczna dwu strefowa , wspomaganie kierownicy , automatyczne lusterka<br />\r\n- Auto sprowadzone ze Stan&oacute;w Zjednoczonych<br />\r\n- Nie zawodna wersja silnikowa 5,0 EFI<br />\r\n- Nowe opony wielosezonowe<br />\r\n- Karoseria bez œlad&oacute;w rdzy ale do poprawek lakierniczych</p>",
+        "price": 46000,
+        "photo1": "photos/202206/03/Lincoln_Old_Town_1.png",
+        "photo2": "photos/202206/03/Lincoln_Old_Town_2.png",
+        "photo3": "photos/202206/03/Lincoln_Old_Town_3.png",
+        "photo4": "photos/202206/03/Lincoln_Old_Town_4.png",
+        "photo5": "photos/202206/03/Lincoln_Old_Town_5.png",
+        "color": "Bordowy",
+        "features": "Klimatyzacja automatyczna,Elektrycznie ustawiany fotel kierowcy,Elektrycznie ustawiany fotel pasa¿era",
+        "body": "Sedan",
+        "doors": "4",
+        "kilometeres": 432914,
+        "passengers": 5,
+        "vin": "US230FDE0AMM523",
+        "isFeatured": false,
+        "province": "Wielkopolskie",
+        "city": "Wilcze",
+        "added": "2022-06-03T19:03:25Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "firstName": "Karolina",
+        "lastName": "Lewandowska",
+        "qualification": "Specjalista ds. sprzeda¿y",
+        "photo": "photos/2022/05/16/avatar-9_lxCFPbm.jpg",
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://twitter.com",
+        "instagram": "https://instagram.com",
+        "youtube": "https://youtube.com",
+        "createdDate": "2022-05-16T15:52:45.754Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "firstName": "Adam",
+        "lastName": "Nowak",
+        "qualification": "Kierownik",
+        "photo": "photos/2022/05/16/avatar-3.jpg",
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://twitter.com",
+        "instagram": "https://instagram.com",
+        "youtube": "https://youtube.com",
+        "createdDate": "2022-05-16T16:05:24.394Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "firstName": "Joanna",
+        "lastName": "Walczak",
+        "qualification": "Wsparcie techniczne",
+        "photo": "photos/2022/05/16/avatar-2.jpg",
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://twitter.com",
+        "instagram": "https://instagram.com",
+        "youtube": "https://youtube.com",
+        "createdDate": "2022-05-16T16:07:04.126Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "firstName": "Sebastian",
+        "lastName": "Kowalski",
+        "qualification": "Specjalista ds. sprzeda¿y",
+        "photo": "photos/2022/05/16/avatar-12.jpg",
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://twitter.com",
+        "instagram": "https://instagram.com",
+        "youtube": "https://youtube.com",
+        "createdDate": "2022-05-16T16:08:19.782Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "firstName": "Piotr",
+        "lastName": "Pawlak",
+        "qualification": "Kierownik dzia³u logistyki",
+        "photo": "photos/2022/05/16/avatar-11.jpg",
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://twitter.com",
+        "instagram": "https://instagram.com",
+        "youtube": "https://youtube.com",
+        "createdDate": "2022-05-16T16:09:08.745Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "firstName": "Renata",
+        "lastName": "Faryj",
+        "qualification": "Specjalista ds. technicznych",
+        "photo": "photos/2022/05/16/avatar-10.jpg",
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://twitter.com",
+        "instagram": "https://instagram.com",
+        "youtube": "https://youtube.com",
+        "createdDate": "2022-05-16T16:14:01.518Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 7,
+    "fields": {
+        "firstName": "Jakub",
+        "lastName": "Godfryd",
+        "qualification": "W³aœciciel",
+        "photo": "photos/2022/05/16/avatar-1_HoZTwKX.jpg",
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://twitter.com",
+        "instagram": "https://instagram.com",
+        "youtube": "https://youtube.com",
+        "createdDate": "2022-05-16T16:15:39.734Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "firstName": "Adrian",
+        "lastName": "Marciniak",
+        "carId": 5,
+        "userId": 0,
+        "added": "2022-05-27T17:38:06Z",
+        "question": "Jestem zainteresowany",
+        "carTitle": "Suzuki Vitara uszkodzona",
+        "city": "Krosno",
+        "province": "Podkarpckie",
+        "email": "adrianmarciniak@twojmail.com",
+        "phoneNumber": "123456789",
+        "message": "Czy pod³oga zosta³a mocno przesuniêta?"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 4,
+    "fields": {
+        "firstName": "Jakub",
+        "lastName": "Godfryd",
+        "carId": 3,
+        "userId": 1,
+        "added": "2022-05-27T18:55:42Z",
+        "question": "Chcê uzyskaæ wiêcej informacji",
+        "carTitle": "Opel Astra IV Diesel Wersja COSMO",
+        "city": "Osobnica",
+        "province": "Podkarpckie",
+        "email": "godfrydkuba@gmail.com",
+        "phoneNumber": "123456789",
+        "message": "Czy mogê prosiæ o raport napraw?"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 7,
+    "fields": {
+        "firstName": "Adrian",
+        "lastName": "Myco",
+        "carId": 5,
+        "userId": 0,
+        "added": "2022-05-31T19:45:06.807Z",
+        "question": "Chcê uzyskaæ wiêcej informacji",
+        "carTitle": "Suzuki Vitara uszkodzona",
+        "city": "Kraków",
+        "province": "Ma³opolskie",
+        "email": "adrian@myco.com",
+        "phoneNumber": "987654321",
+        "message": "Kiedy mogê przyjechaæ na jazdê testow¹?"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 9,
+    "fields": {
+        "firstName": "Jakub",
+        "lastName": "Godfryd",
+        "carId": 13,
+        "userId": 1,
+        "added": "2022-06-03T19:11:26.375Z",
+        "question": "Chcê uzyskaæ wiêcej informacji",
+        "carTitle": "Lincoln Town Car",
+        "city": "Osobnica",
+        "province": "Podkarpckie",
+        "email": "godfrydkuba@gmail.com",
+        "phoneNumber": "123456789",
+        "message": "Ciekawy klasyk, jak wygl¹da œrednie spalanie w takim samochodzie?"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 10,
+    "fields": {
+        "firstName": "Jakub",
+        "lastName": "Godfryd",
+        "carId": 8,
+        "userId": 1,
+        "added": "2022-06-05T19:43:21.555Z",
+        "question": "Chcê uzyskaæ wiêcej informacji",
+        "carTitle": "Porsche Cayenne S Diesel",
+        "city": "Osobnica",
+        "province": "Podkarpckie",
+        "email": "godfrydkuba@gmail.com",
+        "phoneNumber": "123456789",
+        "message": "Fajny system multimedialny, posiada apple carplay?"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 11,
+    "fields": {
+        "firstName": "Franciszek",
+        "lastName": "Marciszak",
+        "carId": 13,
+        "userId": 0,
+        "added": "2022-06-08T19:50:50.922Z",
+        "question": "Chcê uzyskaæ wiêcej informacji",
+        "carTitle": "Lincoln Town Car",
+        "city": "Rzeszów",
+        "province": "Podkarpackie",
+        "email": "wolovig965@musezoo.com",
+        "phoneNumber": "123456789",
+        "message": "Œwietny samochód, jak wygl¹da spalanie w trasie?"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 12,
+    "fields": {
+        "firstName": "Jakub",
+        "lastName": "Godfryd",
+        "carId": 12,
+        "userId": 1,
+        "added": "2022-06-09T17:29:02.960Z",
+        "question": "Jestem zainteresowany",
+        "carTitle": "Polonez Borewicz 1.5",
+        "city": "Osobnica",
+        "province": "Podkarpckie",
+        "email": "godfrydkuba@gmail.com",
+        "phoneNumber": "123456789",
+        "message": "Kiedy mogê siê umówiæ na jazdê testow¹?"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$Rb7em5sghEZx1xwid1lFZG$Afo8We+GQRgee7v64sPxXzCjKHJKJShrKc1BoejNd6Q=",
+        "last_login": "2022-06-08T17:50:57.229Z",
+        "is_superuser": true,
+        "username": "kuba",
+        "first_name": "Jakub",
+        "last_name": "Godfryd",
+        "email": "otoautocomp@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-05-16T15:27:34Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9k4z189t5bwkb50s2hbe30s7r6nucyyh",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQBf-FsyFQFygevfcbCLCsVA0kpT0Z_70l6UGvb2behzm_rdltLS1uRnZjkl1-t-DjK5UO8OnLo_JYy7rMgXeFn7TxqWJ630_37yD7lnstRCTU6iqtHowxhERCA1iUKoARCDaC9lElwICjIkIYDwfEoFAby7475A44Hw:1nqe69:NRxpHd3XcZPBIFVTT-otbfp0Ky1lMYGq4ISG23OVHf4",
+        "expire_date": "2022-05-30T17:01:33.383Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "wavd5rzyhqdkewdgkuf235q3sfhbvh1f",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQBf-FsyFQFygevfcbCLCsVA0kpT0Z_70l6UGvb2behzm_rdltLS1uRnZjkl1-t-DjK5UO8OnLo_JYy7rMgXeFn7TxqWJ630_37yD7lnstRCTU6iqtHowxhERCA1iUKoARCDaC9lElwICjIkIYDwfEoFAby7475A44Hw:1nyzpZ:23oYU9VoTf6Cd6qm3kgrMZGS4lkh5StPwTmlapjSZ_Q",
+        "expire_date": "2022-06-22T17:50:57.232Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "yzc9cjzh2xtelzqxw70vh8l9apeci4ao",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQBf-FsyFQFygevfcbCLCsVA0kpT0Z_70l6UGvb2behzm_rdltLS1uRnZjkl1-t-DjK5UO8OnLo_JYy7rMgXeFn7TxqWJ630_37yD7lnstRCTU6iqtHowxhERCA1iUKoARCDaC9lElwICjIkIYDwfEoFAby7475A44Hw:1nvDCy:iXPJddUCaqHLP-uUESTPqVJsHD5EYqqXmbCR3zdPQjY",
+        "expire_date": "2022-06-12T07:19:28.000Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-05-16T15:29:00.672Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "kuba",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-05-16T15:52:45.757Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-05-16T16:03:12.102Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Jakub Godfryd",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-05-16T16:05:24.396Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Adam Nowak",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-05-16T16:07:04.128Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Joanna Walczak",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-05-16T16:08:19.783Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Sebastian Kowalski",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-05-16T16:09:08.746Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Piotr Pawlak",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-05-16T16:14:01.520Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Renata Faryj | Specjalista ds. technicznych",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-05-16T16:15:39.736Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "7",
+        "object_repr": "Karolina Lewandowska | Zastêpca kierownika",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-05-16T16:28:53.382Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "7",
+        "object_repr": "Jakub Godfryd | W³aœciciel",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"FirstName\", \"LastName\", \"Qualification\", \"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-05-16T16:29:08.751Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Karolina Lewandowska | Specjalista ds. sprzeda¿y",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"FirstName\", \"LastName\", \"Qualification\", \"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-05-19T15:31:47.551Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Car object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-05-19T15:37:13.974Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "Car object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-05-19T15:42:51.323Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Car object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-05-19T15:43:52.695Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Car object (3)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Color\", \"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-05-19T15:52:31.300Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "Car object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-05-19T15:58:44.356Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "Car object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-05-20T15:32:14.548Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Audi A3 1.6 MPI *OKAZJA*",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-05-20T15:57:06.311Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Volkswagen Passat B5 1.9 TDi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-05-20T16:00:39.413Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "7",
+        "object_repr": "Volkswagen Bora 1,9 TDi (ORYGINALNY LAKIER)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-05-23T17:05:00.122Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW M5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-05-23T17:06:55.189Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW M5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"IsFeatured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-05-23T17:10:50.881Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "bmw m5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Brand\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-05-23T17:11:08.540Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW M5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-05-23T17:11:17.029Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW M5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Brand\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-05-29T10:32:41.276Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "6",
+        "object_repr": "godfrydkuba@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"PhoneNumber\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-05-29T10:32:45.199Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "5",
+        "object_repr": "godfrydkuba@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"PhoneNumber\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-05-29T10:32:48.561Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "4",
+        "object_repr": "godfrydkuba@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"PhoneNumber\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2022-05-29T10:32:51.334Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "3",
+        "object_repr": "adrianmarciniak@twojmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2022-05-29T10:32:54.533Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "2",
+        "object_repr": "godfrydkuba@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"PhoneNumber\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2022-05-29T10:32:57.376Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "1",
+        "object_repr": "godfrydkuba@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"PhoneNumber\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2022-06-03T15:34:39.152Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "kuba",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2022-06-03T15:38:00.207Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "kuba1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2022-06-03T15:38:00.211Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "kuba2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2022-06-03T15:50:59.235Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "8",
+        "object_repr": "Porsche Cayenne S Diesel",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2022-06-03T16:01:00.104Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "9",
+        "object_repr": "Lexus LC 500 Prestige",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2022-06-03T16:01:44.816Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "Suzuki Vitara uszkodzona",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"IsFeatured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2022-06-03T16:01:56.820Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "Nissan NV200",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2022-06-03T16:05:25.355Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "9",
+        "object_repr": "Lexus LC 500 Prestige",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2022-06-03T16:23:10.968Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "10",
+        "object_repr": "Mercedes-Benz CLA AMG 45 4-Matic 8G-DCT",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2022-06-03T16:45:32.196Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "11",
+        "object_repr": "BMW M240i",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2022-06-03T16:58:30.556Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "12",
+        "object_repr": "Polonez Borewicz 1.5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2022-06-03T16:58:46.121Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "7",
+        "object_repr": "Volkswagen Bora 1,9 TDi (ORYGINALNY LAKIER)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2022-06-03T16:58:46.125Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Volkswagen Passat B5 1.9 TDi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2022-06-03T16:59:02.120Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "6",
+        "object_repr": "godfrydkuba@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2022-06-03T16:59:02.123Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "2",
+        "object_repr": "godfrydkuba@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2022-06-03T16:59:02.124Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "1",
+        "object_repr": "godfrydkuba@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2022-06-03T16:59:13.638Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "8",
+        "object_repr": "franekpietrak@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2022-06-03T17:06:19.768Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "13",
+        "object_repr": "Lincoln Town Car",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2022-06-03T17:15:19.124Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "5",
+        "object_repr": "godfrydkuba@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2022-06-05T17:26:06.866Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Audi A3 1.6 MPI *OKAZJA*",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Power\", \"Province\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2022-06-05T17:26:38.529Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "BMW M5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Power\", \"Province\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2022-06-05T17:26:55.295Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Opel Astra IV Diesel Wersja COSMO",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Power\", \"Province\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2022-06-05T17:28:23.087Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "Suzuki Vitara uszkodzona",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Power\", \"Province\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2022-06-05T17:28:38.422Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "8",
+        "object_repr": "Porsche Cayenne S Diesel",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Power\", \"Province\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2022-06-05T17:29:06.003Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "9",
+        "object_repr": "Lexus LC 500 Prestige",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Power\", \"Province\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2022-06-05T17:29:42.197Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "10",
+        "object_repr": "Mercedes-Benz CLA AMG 45 4-Matic 8G-DCT",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Power\", \"Province\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2022-06-05T17:30:18.223Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "11",
+        "object_repr": "BMW M240i",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Power\", \"Province\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2022-06-05T17:30:57.626Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "12",
+        "object_repr": "Polonez Borewicz 1.5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Power\", \"Province\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2022-06-05T17:31:31.730Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "13",
+        "object_repr": "Lincoln Town Car",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Engine\", \"Power\", \"Province\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2022-06-06T16:54:25.891Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "franekpietrak",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2022-06-06T16:57:17.233Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "godfrydkuba",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2022-06-06T16:57:17.236Z",
+        "user": [
+            "kuba"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "kubagodfryd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]
