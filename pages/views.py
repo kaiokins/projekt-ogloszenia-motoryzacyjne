@@ -1,7 +1,6 @@
 from django.shortcuts import render, redirect
 from .models import Team
 from cars.models import Car
-from django.contrib.auth.models import User
 from django.core.mail import send_mail
 from django.contrib import messages
 
@@ -9,17 +8,15 @@ def home(request):
     teams = Team.objects.all()
     fCars = Car.objects.order_by('-added').filter(isFeatured=True)
     aCars = Car.objects.order_by('-added')
-    # search = Car.objects.values('brand', 'model', 'city', 'year', 'body')
-    brand = Car.objects.values('brand').distinct()
-    model = Car.objects.values('model').distinct()
-    city = Car.objects.values('city').distinct()
+    brand = Car.objects.values('brand').distinct().order_by('brand')
+    model = Car.objects.values('model').distinct().order_by('model')
+    city = Car.objects.values('city').distinct().distinct('city')
     year = Car.objects.values('year').distinct().order_by('year')
-    body = Car.objects.values('body').distinct()
+    body = Car.objects.values('body')
     data = {
         'teams': teams,
         'fCars': fCars,
         'aCars': aCars,
-        # 'search': search,
         'brand': brand,
         'model': model,
         'city': city,
@@ -48,13 +45,11 @@ def contact(request):
 
         messageMail = 'Imię: ' + name + '\nEmail: ' + email + '\nTelefon: ' + phone + '\nWiadomość: ' + message
 
-        info = User.objects.get(is_superuser=True)
-        emailInfo = info.email
         send_mail(
             '[OtoAuto] Masz nową wiadomość, temat: ' + subject,
             messageMail,
-            'otoautocomp@gmail.com',
-            [emailInfo],
+            email,
+            ['otoautocomp2@gmail.com'],
             fail_silently=False,
         )
         messages.success(request, 'Dziękujemy za kontakt. Wkrótce odpowiemy Ci na wiadomość.')

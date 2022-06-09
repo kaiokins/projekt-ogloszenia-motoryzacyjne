@@ -2,15 +2,16 @@ from django.shortcuts import render
 from django.shortcuts import get_object_or_404
 from .models import Car
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
+from django.test.client import RequestFactory
 
 def cars(request):
     cars = Car.objects.order_by('-added')
     pagination = Paginator(cars, 6)
     page = request.GET.get('page')
     pagedCars = pagination.get_page(page)
-    brand = Car.objects.values('brand').distinct()
-    model = Car.objects.values('model').distinct()
-    city = Car.objects.values('city').distinct()
+    brand = Car.objects.values('brand').distinct().order_by('brand')
+    model = Car.objects.values('model').distinct().order_by('model')
+    city = Car.objects.values('city').distinct().order_by('city')
     year = Car.objects.values('year').distinct().order_by('year')
     body = Car.objects.values('body').distinct()
 
@@ -30,9 +31,9 @@ def car_info(request, id):
 
 def search(request):
     cars = Car.objects.order_by('-added')
-    searchBrand = Car.objects.values('brand').distinct()
-    searchModel = Car.objects.values('model').distinct()
-    searchCity = Car.objects.values('city').distinct()
+    searchBrand = Car.objects.values('brand').distinct().order_by('brand')
+    searchModel = Car.objects.values('model').distinct().order_by('model')
+    searchCity = Car.objects.values('city').distinct().order_by('city')
     searchYear = Car.objects.values('year').distinct().order_by('year')
     searchBody = Car.objects.values('body').distinct()
 

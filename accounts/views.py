@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect
 from django.contrib import messages, auth
 from django.contrib.auth.models import User
 from contacts.models import Contact
-from cars.models import Car
 from django.contrib.auth.decorators import login_required
 
 def login(request):
@@ -42,9 +41,6 @@ def register(request):
                     auth.login(request, user)
                     messages.success(request, 'Zalogowałeś się')
                     return redirect('panel')
-                    user.save()
-                    messages.success(request, 'Zarejestrowano się pomyślnie')
-                    return redirect('login')
         else:
             messages.error(request, 'Hasła są różne')
             return redirect('register')
@@ -53,7 +49,6 @@ def register(request):
 
 @login_required(login_url = 'login')
 def panel(request):
-    car = Car.objects.order_by('-added')
     userQuestion = Contact.objects.order_by('-added').filter(userId=request.user.id)
     data = {'userQuestion': userQuestion}
     return render(request, 'accounts/panel.html', data)

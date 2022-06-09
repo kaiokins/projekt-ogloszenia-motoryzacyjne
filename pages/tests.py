@@ -55,19 +55,6 @@ class otoautoTests(TestCase):
         member = Team.objects.create(firstName="Jakub", lastName="Godfryd", qualification='Właściciel')
         self.assertEquals(str(member), "Jakub Godfryd | Właściciel")
 
-    # email send test
-    # def test_sendEmail(self):
-    #     messageMail = 'Imię: ' + 'Adrian' + '\nEmail: ' + 'Nowak' + '\nTelefon: ' + '123456789' + '\nWiadomość: ' + 'Test wiadomości'
-    #     mail.send_mail(
-    #         '[OtoAuto] Masz nową wiadomość, temat: ' + 'Temat',
-    #         messageMail,
-    #         'otoautocomp@gmail.com',
-    #         [self.user.email],
-    #         fail_silently=False,
-    #     )
-    #     self.assertEquals(mail.body, '[OtoAuto] Masz nową wiadomość, temat: ' + 'Temat')
-
-
     # csrf test
     def test_csrfContact(self):
         response = self.client.get(reverse('contact'))

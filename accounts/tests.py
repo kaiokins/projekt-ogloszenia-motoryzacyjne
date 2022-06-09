@@ -2,7 +2,6 @@ from django.test import TestCase, Client, RequestFactory
 from django.urls import reverse, resolve
 from .views import login, logout, register, panel
 from django.contrib.auth.models import User, AnonymousUser
-from django.http import HttpRequest
 
 class accountTest(TestCase):
     def setUp(self):
