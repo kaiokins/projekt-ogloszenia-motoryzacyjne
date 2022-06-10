@@ -29,45 +29,25 @@ jobs:
       run: |
         python manage.py test
         
-metadata:
-  name: postgres-deployment
-spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: postgres-container
-  template:
-    metadata:
-      labels:
-        app: postgres-container
-        tier: backend
-    spec:
-      containers:
-        - name: postgres-container
-          image: postgres:9.6.6
-          env:
-            - name: otoauto_db
-              valueFrom:
-                secretKeyRef:
-                  name: postgres-credentials
-                  key: user
-
-            - name: 123456
-              valueFrom:
-                secretKeyRef:
-                  name: postgres-credentials
-                  key: password
-
-            - name: otoauto_db
-              value: kubernetes_django
-
-          ports:
-            - containerPort: 5432
-          volumeMounts:
-            - name: postgres-volume-mount
-              mountPath: /var/lib/postgresql/data
-
-      volumes:
-        - name: postgres-volume-mount
-          persistentVolumeClaim:
-            claimName: postgres-pvc
+services:
+  db:
+    image: postgres
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    environment:
+      - POSTGRES_NAME=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    depends_on:
+      - db
